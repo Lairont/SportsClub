@@ -1,117 +1,225 @@
+
 html {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+
 *,
 *::before,
-*::after{
-    margin:0;
+*::after {
+    margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
 body {
-    height: 10000px;
-    width: 100%;
+    background: linear-gradient(135deg, #fff9f0 0%, #fdf6ed 100%);
+    color: #2e2e2e;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.logo{
-    align-atems: center;
-    display: inline-flex;
-    font-size:15px;
-    font-weight:600;
-    line-height:150%;
-    color:#0c0e10;
-}
-.img-header{
-    width:850px;
-    height:350px;
-    margin-top: 20px;
-}
-#header-top {
+
+/* СТИЛИ ФИКСИРОВАННОГО ХЕДЕРА */
+.main-header {
+    /* Фиксируем */
     position: fixed;
+    /* Прижимает к верхнему краю окна */
     top: 0;
+    /* Ширина */
     width: 100%;
-    z-index: 500;
-    background-color: rgba(255, 165, 0, 0);
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 70px;
-    transition: background-color 0.5s;
-}
-#header-bottom {
-    position: sticky;
-    top: 0;
-    padding: 25px 0;
-    width: 50%;
     z-index: 1000;
-}
-button-header {
+    background-color: rgba(255, 255, 255, 0.85);
+    /* Эффект размытияs */
+    backdrop-filter: blur(10px);
+    /* То же самое для Safari и старых WebKit-браузеров */
+    -webkit-backdrop-filter: blur(10px);
+    /* Лёгкая тень снизу для визуального отделения от контента */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    /* Включаем flex для внутреннего расположения элементов */
     display: flex;
-align-items: center; 
+    /* Распределяет элементы: первый — слева, последний — справа, остальные — между */
+    justify-content: space-between;
+    /* Выравнивает все дочерние элементы по вертикали по центру */
+    align-items: center;
+    /* Oтступы */
+    padding: 0 70px;
+    height: 70px;
 }
 
-.button-header.button {
-    border: 2px solid #370b0b;
+/* Логотип */
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2e2e2e;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Стили блока меню */
+.menu {
+    flex: 1;
+    display: flex;
+    /* Центрирует по горизонтали */
+    justify-content: center;
+    /* Горизонтальные отступы */
+    margin: 0 40px;
+}
+
+    /* Список пунктов меню */
+    .menu ul {
+        /* Убирает маркеры у списка */
+        list-style: none;
+        /* Располагает пункты в строку */
+        display: flex;
+        /* Расстояние между соседними ссылками */
+        gap: 35px;
+        /* Убираем стандартные отступы списка */
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Стили ссылок в меню */
+    .menu a {
+        font-size: 16px;
+        font-weight: 600;
+        color: #c47b2c;
+        /* Убираем подчёркивание */
+        text-decoration: none;
+        /* Внутренние отступы вокруг текста */
+        padding: 6px 8px;
+        border-radius: 4px;
+        /* Плавная анимация */
+        transition: all 0.25s ease;
+        position: relative;
+    }
+
+        .menu a::after {
+            content: '';
+            position: absolute;
+            /* Прижимает к нижнему краю ссылки */
+            bottom: 0;
+            /* Центрирует по горизонтали */
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background-color: #c47b2c;
+            transition: all 0.3s ease;
+            /* Сдвигает линию на половину её ширины */
+            transform: translateX(-50%);
+        }
+
+        /* Стили при наведении на ссылку */
+        .menu a:hover {
+            color: #26252D;
+        }
+            /* Анимация линии при наведении */
+            .menu a:hover::after {
+                width: 95%;
+            }
+
+/* Войти */
+.button-header .button {
+    border: 2px solid #c47b2c;
+    /* Прозрачный фон */
     background-color: transparent;
-    padding: 7px 14px;
-    margin: 0 10px;
-    border-radius: 3px;
-    color: #370b0b;
-    cursor: pointer;
+    /* Отступы */
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: #c47b2c;
     font-size: 14px;
     font-weight: 600;
-    transition: all 250ms ease;
-}
-button-header.button:hover {
-color: #fff; 
-background-color: #370b0b; 
+    transition: all 0.4s ease;
+    box-shadow: 0 2px 6px rgba(196, 123, 44, 0.15);
 }
 
-.menu {
-    width: 100%; 
-    display: flex; 
-    justify-content: center;
+    /* Стили кнопки при наведении */
+    .button-header .button:hover {
+        color: #fff;
+        background-color: #c47b2c;
+        /* Лёгкий подъём кнопки */
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(196, 123, 44, 0.3);
+    }
+
+/* СТИЛИ КОНТЕНТА */
+.img-header {
+    /* Фиксированная ширина изображения */
+    width: 950px;
+    /* Фиксированная высота */
+    height: 430px;
+    margin: 20px 0 25px;
+    border-radius: 12px;
+    /* Обрезка изображения с сохранением пропорций */
+    object-fit: cover;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    /* Плавная анимация при масштабировании */
+    transition: transform 0.4s ease;
 }
-    .menu li {
-        display: inline;
+    .img-header:hover {
+        transform: scale(1.005);
+    }
+
+/* Контейнер основного контента */
+.container-section {
+    width: 80%; 
+    margin: 40px auto; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* АДАПТИВНЫЕ СТИЛИ ДЛЯ ЭКРАНОВ ШИРИНОЙ ДО 900px */
+@media (max-width: 900px) {
+    .main-header {
         padding: 0 20px;
+        /* Разрешает перенос элементов на новую строку */
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .logo {
+        /* Логотип — первый по порядку */
+        order: 1;
+    }
+
+    .menu {
+        /* Меню — третье по порядку*/
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin: 10px 0 0;
+    }
+
+    .button-header {
+        order: 2;
+        /* Прижимает кнопку к правому краю */
+        margin-left: auto;
+    }
+
+    .menu ul {
+        /* Уменьшенное расстояние между ссылками */
+        gap: 15px;
     }
 
     .menu a {
-        font-size: 15px; 
-        font-weight: 600; 
-        line-height: 150%; 
-        color: #00e010; 
-        text-decoration: none;
+        /* Уменьшенный размер шрифта */
+        font-size: 14px;
     }
 
-        .menu a:hover {
-            color: #000;
-        }
-.container{
-    width: 82%;
-    border:2px solid #cacaca;
-    border-radius: 3px;
-    box-shadow:5px 5px 10px rgba(0,0,0,0.4);
-}
-.container-section{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    margin-bottom: 20px;
-    margin: 40px;
-}
-info-sections{
-    margin-bottom: 20px;
-    font-size: 40px;
-    color:#370b0b;
-}
-text{
-    text-indent:40px;
-    margin: 5px;
-    text-align:justify;
-    font-size:20px;
-    color: #370b0b;
+    .img-header {
+        width: 95%;
+        height: auto;
+    }
+
+    /* спросить */
+    .info-sections {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container-section p {
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
 }

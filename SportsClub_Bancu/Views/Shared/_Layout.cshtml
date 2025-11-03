@@ -1,36 +1,42 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - SportsClub_Bancu</title>
+    <title>@ViewData["Title"] - Мир Путешествий</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SportsClub_Bancu.styles.css" asp-append-version="true" />
 </head>
 <body>
-  <div id="header-top">
-      <div class="logo">Мир Путешествий</div>
-<div class="button-header">
-    <button class="button">Войти</button>
+    <header class="main-header">
+        <div class="logo">FitStock</div>
 
-</div>
-  </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#overview">Обзор</a></li> 
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#clients">Клиенты</a></li> 
+                <li><a href="#contact">Контакты</a></li> 
+            </ul>
+        </nav>
 
-  <img class="img-header" src="~/images/fin.jpg" />
+        <div class="button-header">
+            <button class="button">Войти</button>
+        </div>
+    </header>
 
-  <div id="header-bottom">
-  <div class="menu">
-      <ul>
-          <li><a href="#home">Главная</a></li>
-          <li><a href="#home">Контакты</a></li>
-          <li><a href="#home">Страны</a></li>
-          <li><a href="#home">Услуги</a></li>
-      </ul>
-      </div>
-  </div>
-  <div class="container">
-      @RenderBody()
-  </div>
+    
+    <img class="img-header" src="~/images/fin.jpg" alt="Путешествия" />
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
