@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\prac\\zavestau\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {}
+    "C:\\prac\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {}
   },
   "projects": {
-    "C:\\prac\\zavestau\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {
+    "C:\\prac\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\prac\\zavestau\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
+        "projectUniqueName": "C:\\prac\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
         "projectName": "SportsClub_Bancu",
-        "projectPath": "C:\\prac\\zavestau\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
+        "projectPath": "C:\\prac\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
         "packagesPath": "C:\\Users\\New\\.nuget\\packages\\",
-        "outputPath": "C:\\prac\\zavestau\\SportsClub_Bancu\\obj\\",
+        "outputPath": "C:\\prac\\SportsClub\\SportsClub_Bancu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -13,7 +13,7 @@ namespace SportsClub_Bancu.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult SiteInformation()
         {
             return View();
         }
