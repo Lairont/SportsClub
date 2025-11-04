@@ -32,6 +32,7 @@ C:\prac\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\refint\SportsClub_Bancu.dll
 C:\prac\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.pdb
 C:\prac\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.genruntimeconfig.cache
 C:\prac\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\ref\SportsClub_Bancu.dll
+<<<<<<< HEAD
 E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\appsettings.Development.json
 E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\appsettings.json
 E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.runtime.json
@@ -65,3 +66,39 @@ E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\refint\SportsCl
 E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.pdb
 E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.genruntimeconfig.cache
 E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\ref\SportsClub_Bancu.dll
+=======
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\appsettings.Development.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\appsettings.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.runtime.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.endpoints.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.exe
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.deps.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.runtimeconfig.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.dll
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.pdb
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.GeneratedMSBuildEditorConfig.editorconfig
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfoInputs.cache
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfo.cs
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.csproj.CoreCompileInputs.cache
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cache
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cache
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cs
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.sourcelink.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\bundle\SportsClub_Bancu.styles.css
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\projectbundle\SportsClub_Bancu.bundle.scp.css
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.development.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.dll
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\refint\SportsClub_Bancu.dll
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.pdb
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.genruntimeconfig.cache
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\ref\SportsClub_Bancu.dll
+>>>>>>> 9304ecd4dc104cdb799084e973d06533f913cba9

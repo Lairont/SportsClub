@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿﻿
 <!DOCTYPE html>
+=======
+﻿<!DOCTYPE html>
+>>>>>>> 9304ecd4dc104cdb799084e973d06533f913cba9
 <html lang="ru">
 <head>
     <meta charset="utf-8" />
@@ -17,6 +21,7 @@
         <nav class="menu">
             <ul>
                 <li><a href="#home">Главная</a></li>
+<<<<<<< HEAD
                 <li><a href="#overview">Обзор</a></li>
                 <li><a href="#services">Услуги</a></li>
                 <li><a href="#clients">Клиенты</a></li>
@@ -34,10 +39,28 @@
 
 
     @await Html.PartialAsync("_LoginRegistrationPartial")
+=======
+                <li><a href="#overview">Обзор</a></li> 
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#clients">Клиенты</a></li> 
+                <li><a href="#contact">Контакты</a></li> 
+            </ul>
+        </nav>
+
+        <div class="button-header">
+            <button class="button">Войти</button>
+        </div>
+    </header>
+
+    
+    <img class="img-header" src="~/images/fin.jpg" alt="Путешествия" />
+
+>>>>>>> 9304ecd4dc104cdb799084e973d06533f913cba9
     <div class="container">
         @RenderBody()
     </div>
 
+<<<<<<< HEAD
 
   
 
@@ -51,3 +74,11 @@
 </html>
 
  
+=======
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+>>>>>>> 9304ecd4dc104cdb799084e973d06533f913cba9
