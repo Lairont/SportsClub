@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "E:\\315б\\Новая папка\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {}
-  },
-  "projects": {
-    "E:\\315б\\Новая папка\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\315б\\Новая папка\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
-        "projectName": "SportsClub_Bancu",
-        "projectPath": "E:\\315б\\Новая папка\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
-        "packagesPath": "D:\\Users\\tmu6\\.nuget\\packages\\",
-        "outputPath": "E:\\315б\\Новая папка\\SportsClub_Bancu\\obj\\",
-=======
     "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {}
   },
   "projects": {
@@ -25,17 +12,12 @@
         "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
         "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
         "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\obj\\",
->>>>>>> 9304ecd4dc104cdb799084e973d06533f913cba9
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "D:\\Users\\tmu6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
           "C:\\Users\\petrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 9304ecd4dc104cdb799084e973d06533f913cba9
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -86,11 +68,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
->>>>>>> 9304ecd4dc104cdb799084e973d06533f913cba9
         }
       }
     }

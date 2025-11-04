@@ -1,6 +1,7 @@
 ﻿.block {
     height: 100%;
     background-color: rgb(255, 165, 0);
+    border-radius: 20px;
     box-shadow: 0 5px 45px rgba(0,0,0,0.7);
     display: flex;
     align-items: center;
@@ -53,6 +54,7 @@
 }
 
 .block-item_btn {
+    border-radius: 15px;
     border: none;
     cursor: pointer;
     padding: 10px 20px;
@@ -64,6 +66,7 @@
 
 .form-box {
     background-color: #fff;
+    border-radius: 20px;
     height: 100%;
     width: 50%;
     box-shadow: 0 5px 45px rgba(0,0,0,0.25);
@@ -94,6 +97,7 @@
 
 .form-box input {
     outline: none;
+    border-radius:15px;
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -107,7 +111,8 @@
 
         .form-box input:focus + span,
         .form-box input:not(:placeholder-shown) ~ span {
-            top: -18px;
+            top: 17px;
+            border-radius: 15px;
             left: 8px;
             font-size: 12px;
             color: rgb(255, 165, 0);
@@ -117,7 +122,7 @@
 span {
     cursor: text;
     position: absolute;
-    top: 3%;
+    top: 35%;
     left: 16px;
     color: rgb(131, 131, 131);
     transition: all 0.3s ease-in-out;
@@ -125,6 +130,7 @@ span {
 }
 
 .form-btn {
+    border-radius: 17px;
     border: none;
     cursor: pointer;
     background-color: rgb(255, 165, 0);
@@ -136,6 +142,7 @@ span {
 }
 
 .form_btn_signup {
+    border-radius: 17px;
     background-color: #370b0b;
 }
 
@@ -172,8 +179,8 @@ span {
 #open-login {
     border: 2px solid #c47b2c;
     background-color: transparent;
-    padding: 8px 20px;
-    border-radius: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
     color: #c47b2c;
     font-size: 14px;
     font-weight: 600;

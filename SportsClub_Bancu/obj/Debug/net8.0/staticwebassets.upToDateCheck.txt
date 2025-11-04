@@ -1,15 +1,19 @@
+wwwroot\css\login_and_registration.css
+wwwroot\css\Message.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\cont.png
+wwwroot\images\distavka.jpg
 wwwroot\images\email.png
 wwwroot\images\fin.jpg
 wwwroot\images\fint.jpg
-<<<<<<< HEAD
 wwwroot\images\mesto.png
+wwwroot\images\poderka.jpg
+wwwroot\images\postrane.jpg
+wwwroot\images\strohovka.jpg
 wwwroot\images\telefon.png
 wwwroot\js\home_script.js
-=======
->>>>>>> 9304ecd4dc104cdb799084e973d06533f913cba9
+wwwroot\js\login_and_registration_script.js
 wwwroot\js\shared_script.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -69,9 +73,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-<<<<<<< HEAD
-wwwroot\css\login_and_registration.css
-wwwroot\css\site.css
-wwwroot\js\login_and_registration_script.js
-=======
->>>>>>> 9304ecd4dc104cdb799084e973d06533f913cba9
