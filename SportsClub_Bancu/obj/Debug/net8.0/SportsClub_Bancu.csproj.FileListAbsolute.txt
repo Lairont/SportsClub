@@ -32,3 +32,36 @@ C:\prac\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\refint\SportsClub_Bancu.dll
 C:\prac\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.pdb
 C:\prac\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.genruntimeconfig.cache
 C:\prac\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\ref\SportsClub_Bancu.dll
+E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\appsettings.Development.json
+E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\appsettings.json
+E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.runtime.json
+E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.endpoints.json
+E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.exe
+E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.deps.json
+E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.runtimeconfig.json
+E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.dll
+E:\315б\Новая папка\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.pdb
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.GeneratedMSBuildEditorConfig.editorconfig
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfoInputs.cache
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfo.cs
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.csproj.CoreCompileInputs.cache
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cache
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cache
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cs
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\bundle\SportsClub_Bancu.styles.css
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\projectbundle\SportsClub_Bancu.bundle.scp.css
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.development.json
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.dll
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\refint\SportsClub_Bancu.dll
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.pdb
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.genruntimeconfig.cache
+E:\315б\Новая папка\SportsClub_Bancu\obj\Debug\net8.0\ref\SportsClub_Bancu.dll
