@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {}
+    "E:\\315б\\Новая папка\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {}
   },
   "projects": {
-    "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
+    "E:\\315б\\Новая папка\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
+        "projectUniqueName": "E:\\315б\\Новая папка\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
         "projectName": "SporClub_Bancu.DAL",
-        "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
-        "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
-        "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\obj\\",
+        "projectPath": "E:\\315б\\Новая папка\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
+        "packagesPath": "D:\\Users\\tmu6\\.nuget\\packages\\",
+        "outputPath": "E:\\315б\\Новая папка\\SportsClub\\SporClub_Bancu.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\petrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\tmu6\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

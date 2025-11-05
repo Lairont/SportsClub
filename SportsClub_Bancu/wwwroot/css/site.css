@@ -331,4 +331,12 @@ body {
     }
 }
 
+/*login*/
+#error-messages-singin{
+margin-top: 10px;
+}
+.error{
+    color:red;
+    font-size:13px;
+}
 

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SportClub_Bancu.Domain/1.0.0": {
+        "runtime": {
+          "SportClub_Bancu.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SportClub_Bancu.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -15,44 +15,51 @@
 
         <div class="form-box">
             <form class="form form_signin">
+
                 <h3 class="form_title">Вход</h3>
                 <label id="email">
-                    <input type="text" placeholder=" " />
+                    <input type="text" placeholder=" " id="signin_email"/>
                     <span>Почта</span>
                 </label>
 
                 <label id="password">
-                    <input type="password" placeholder=" " />
+                    <input type="password" placeholder=" " id="signin_password" />
                     <span>Пароль</span>
                 </label>
 
-                <div class="form-btn">Войти</div>
+                <div class="form-btn form_btn_signin">Войти</div>
+               
+                @* d *@
+                <div id="error-messages-singin"></div>
             </form>
 
             <form class="form form_signup">
                 <h3 class="form_title">Регистрация</h3>
 
                 <label id="login">
-                    <input type="text" placeholder=" " />
+                    <input type="text" placeholder=" " id="signup_login"/>
                     <span>Логин</span>
                 </label>
 
                 <label id="email">
-                    <input type="text" placeholder=" " />
+                    <input type="text" placeholder=" " id="signup_email"/>
                     <span>Почта</span>
                 </label>
 
                 <label id="password">
-                    <input type="password" placeholder=" " />
+                    <input type="password" placeholder=" " id="signup_password"/>
                     <span>Пароль</span>
                 </label>
 
                 <label id="confirm_password">
-                    <input type="password" placeholder=" " />
+                    <input type="password" placeholder=" " id="signup_confirm_password"/>
                     <span>Подтвердите пароль</span>
                 </label>
 
                 <div class="form-btn form_btn_signup">Зарегистрироваться</div>
+
+                @* d *@
+                <div id="error-messages-singup"></div>
             </form>
         </div>
     </div>

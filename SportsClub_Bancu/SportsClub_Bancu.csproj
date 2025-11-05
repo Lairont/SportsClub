@@ -11,4 +11,8 @@
     <Folder Include="wwwroot\Новая папка\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SportClub_Bancu.Domain\SportClub_Bancu.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

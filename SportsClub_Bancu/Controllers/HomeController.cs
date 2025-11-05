@@ -1,6 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SportsClub_Bancu.Models;
+using SportClub_Bancu.Domain.ViewModels.LoginAndRegistration;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace SportsClub_Bancu.Controllers
 {
@@ -18,6 +20,37 @@ namespace SportsClub_Bancu.Controllers
             return View();
         }
 
+
+        [HttpPost]
+        public IActionResult Login([FromBody] LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                return Ok(model);
+            }
+               var errors = ModelState.Values.SelectMany(v => v.Errors)
+                                           .Select(e =>  e.ErrorMessage)
+                                           .ToList();
+            return BadRequest(errors);        
+        }
+
+
+        [HttpPost]
+        public IActionResult Register([FromBody] RegisterViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                return Ok(model);
+            }
+
+            var errors = ModelState.Values.SelectMany(v => v.Errors)
+                                   .Select(e => e.ErrorMessage)
+                                   .ToList();
+
+            return BadRequest(errors);
+        }
+
+
         public IActionResult Privacy()
         {
             return View();
@@ -28,5 +61,8 @@ namespace SportsClub_Bancu.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+
     }
 }
