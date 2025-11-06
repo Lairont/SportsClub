@@ -10,3 +10,15 @@ E:\315б\Новая папка\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.
 E:\315б\Новая папка\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\refint\SportClub_Bancu.Domain.dll
 E:\315б\Новая папка\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\SportClub_Bancu.Domain.pdb
 E:\315б\Новая папка\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\ref\SportClub_Bancu.Domain.dll
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\bin\Debug\net8.0\SportClub_Bancu.Domain.deps.json
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\bin\Debug\net8.0\SportClub_Bancu.Domain.dll
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\bin\Debug\net8.0\SportClub_Bancu.Domain.pdb
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\SportClub_Bancu.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\SportClub_Bancu.Domain.AssemblyInfoInputs.cache
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\SportClub_Bancu.Domain.AssemblyInfo.cs
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\SportClub_Bancu.Domain.csproj.CoreCompileInputs.cache
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\SportClub_Bancu.Domain.sourcelink.json
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\SportClub_Bancu.Domain.dll
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\refint\SportClub_Bancu.Domain.dll
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\SportClub_Bancu.Domain.pdb
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\ref\SportClub_Bancu.Domain.dll

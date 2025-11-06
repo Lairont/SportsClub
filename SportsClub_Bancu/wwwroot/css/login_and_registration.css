@@ -186,6 +186,7 @@ span {
     font-weight: 600;
     transition: all 0.4s ease;
     box-shadow: 0 2px 6px rgba(196, 123, 44, 0.15);
+   
 }
 
     #open-login:hover {
