@@ -15,9 +15,8 @@
     <header class="main-header">
         <div class="logo">FitStock</div>
 
-        <div class="button-header">
-            <button id="open-login">Войти</button>
-        </div>
+   
+            
 
         <!-- Кнопка-гамбургер для мобильного меню -->
         <div id="hamburger" class="icon">&#9776;</div>
@@ -43,8 +42,14 @@
                     <li><a href="#clients">Клиенты</a></li>
                     <li><a href="#contact">Контакты</a></li>
                 </ul>
+              
             </div>
+            <button id="open-login-side">Войти</button>
             <button class="button" id="side-menu-button-click-to-hide" type="button" name="button">Закрыть</button>
+        </div>   
+        
+        <div class="button-header">
+            <button id="open-login">Войти</button>
         </div>
     </header>
 
@@ -59,6 +64,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/shared_script.js" asp-append-version="true"></script>
     <script src="~/js/home_script.js" asp-append-version="true"></script>
     <script src="~/js/login_and_registration_script.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

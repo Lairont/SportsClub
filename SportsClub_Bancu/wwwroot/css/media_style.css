@@ -1,15 +1,15 @@
 ﻿.side-menu {
 
-    /*display: none;*/
+    display: none;
 }
 
 .icon {
-    /*display: none;*/
+    display: none;
 }
 
 
 /* ---------------- АДАПТИВНОЕ МЕНЮ ---------------- */
-@media (max-width: 992px) {
+@media (max-width: 992px) {s
 
     /* Скрываем обычные элементы */
     .button-header {
@@ -45,16 +45,22 @@
         position: fixed;
         top: 0;
         right: -100%;
-        width: 100%;
-        height: fit-content;
+        width: 90%; 
+        max-width: 360px;
+        height: 100vh;
         background-color: rgba(255, 250, 245, 0.98);
-        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
-        padding: 40px;
+        backdrop-filter: blur(8px); 
+        -webkit-backdrop-filter: blur(8px);
+        box-shadow: -6px 0 24px rgba(0, 0, 0, 0.12), -2px 0 6px rgba(0, 0, 0, 0.06);
+        padding: 80px 24px 32px; 
         display: flex;
         flex-direction: column;
         align-items: center;
-        transition: right 0.3s ease;
-        z-index: 200;
+        overflow-y: auto; 
+        overscroll-behavior: contain; 
+        transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1), right 0.4s cubic-bezier(0.22, 0.61, 0.36, 1); /* ← более естественная анимация (как у Material Design) */
+        z-index: 1001; 
+        box-sizing: border-box;
     }
 
         /* Когда меню активно (будет добавляться через JS) */
@@ -70,20 +76,28 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 20px;
+            gap: 25px;
         }
 
             .side-menu ul li a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
                 border: 2px solid #c47b2c;
                 background-color: transparent;
-                padding: 8px 16px;
-                border-radius: 15px;
+                padding: 12px 24px; 
+                min-width: 200px; 
+                border-radius: 16px;
                 color: #c47b2c;
-                font-size: 18px;
+                font-size: 17px;
                 font-weight: 600;
                 text-decoration: none;
-                box-shadow: 0 2px 6px rgba(196, 123, 44, 0.15);
-                transition: all 0.3s ease;
+                box-shadow: 0 4px 12px rgba(196, 123, 44, 0.12), 0 1px 3px rgba(196, 123, 44, 0.1);
+
+                transition: background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+                position: relative;
+                overflow: hidden;
             }
 
                 .side-menu ul li a:hover {
@@ -93,12 +107,19 @@
                     box-shadow: 0 4px 12px rgba(196, 123, 44, 0.3);
                 }
 
+
+    #side-menu-button-click-to-hide:hover {
+        border: 2px solid #f76c3c;
+        background-color: #f76c3c;
+        transform: scale(1.1);
+    }
+
         /* Кнопка внизу меню (если будет, например "Войти") */
         .side-menu .button {
             border: 2px solid #c47b2c;
             background-color: transparent;
-            padding: 8px 20px;
-            border-radius: 30px;
+            padding: 8px 50px;
+            border-radius: 20px;
             color: #c47b2c;
             font-size: 16px;
             font-weight: 600;
@@ -112,6 +133,38 @@
                 transform: translateY(-1px);
                 box-shadow: 0 4px 12px rgba(196, 123, 44, 0.3);
             }
+
+
+
+
+    #open-login-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: 2px solid #c47b2c;
+        background-color: transparent;
+        padding: 10px 24px;
+        margin-bottom:25px;
+        min-width: 200px;
+        border-radius: 16px;
+        color: #c47b2c;
+        font-size: 17px;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: 0 4px 12px rgba(196, 123, 44, 0.12), 0 1px 3px rgba(196, 123, 44, 0.1);
+        transition: background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+        #open-login-side:hover {
+            color: #fff;
+            background-color: #c47b2c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(196, 123, 44, 0.3);
+        }
 
     /* Картинка в шапке — уменьшаем при маленьком экране */
     .img-header {
@@ -194,7 +247,7 @@
 
     /* Вход / регистрация */
     .block-container {
-        width: 400px;
+        width: 450px;
         height: 650px;
         padding: 0;
     }
@@ -203,6 +256,24 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
+
+    }
+
+
+
+    .block-item_btn {
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        margin-top:10px;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        background-color: #fff;
+        color: #333;
+        font-size: 16px;
+        font-weight: 500;
+
     }
 
     .form-box {
@@ -216,6 +287,8 @@
             top: 150px;
             left: 0;
         }
+
+
 
 /*         @media (max-width: 600px) {
         .card-wrapper {

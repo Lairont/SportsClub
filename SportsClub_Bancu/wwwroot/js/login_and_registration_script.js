@@ -65,16 +65,20 @@ function cleaningAndClosingForm(form, errorContainer) {
     toggleLoginContainer();
 }
 
-// Инициализация DOM
-
-
+// поддержка ОБЕИХ кнопок "Войти"
 document.addEventListener('DOMContentLoaded', function () {
     const overlay = document.querySelector(".overlay");
-    const openBtn = document.getElementById("open-login");
 
-    if (openBtn) openBtn.addEventListener("click", toggleLoginContainer);
+    // 👇 Подписываемся на ОБЕ кнопки: основную и в сайд-меню
+    const openLoginBtn = document.getElementById("open-login");
+    const openLoginSideBtn = document.getElementById("open-login-side");
+
+    if (openLoginBtn) openLoginBtn.addEventListener("click", toggleLoginContainer);
+    if (openLoginSideBtn) openLoginSideBtn.addEventListener("click", toggleLoginContainer);
+
     if (overlay) overlay.addEventListener("click", toggleLoginContainer);
 
+    // Переключение форм (вход/регистрация)
     const signInBtn = document.querySelector('.signin-btn');
     const signUpBtn = document.querySelector('.signup-btn');
     const formBox = document.querySelector('.form-box');
@@ -96,7 +100,6 @@ document.addEventListener('DOMContentLoaded', function () {
 // ----------------------------
 // Кнопка входа
 // ----------------------------
-
 const form_btn_signin = document.querySelector('.form_btn_signin');
 
 if (form_btn_signin) {
@@ -117,11 +120,11 @@ if (form_btn_signin) {
         sendRequest('POST', requestURL, body)
             .then(data => {
                 cleaningAndClosingForm(form, errorContainer);
-                console.log('Успешный ответ:', data);
+                console.log('Успешный вход:', data);
             })
             .catch(err => {
                 displayErrors(err, errorContainer);
-                console.log(err);
+                console.log('Ошибка входа:', err);
             });
     });
 }
@@ -129,7 +132,6 @@ if (form_btn_signin) {
 // ----------------------------
 // Кнопка регистрации
 // ----------------------------
-
 const form_btn_signup = document.querySelector('.form_btn_signup');
 
 if (form_btn_signup) {
@@ -148,17 +150,17 @@ if (form_btn_signup) {
             login: form.login.value,
             email: form.email.value,
             password: form.password.value,
-            passwordReset: form.passwordConfirm.value // <- исправлено
+            passwordReset: form.passwordConfirm.value // ← возможно, сервер ожидает passwordConfirm — проверьте!
         };
 
         sendRequest('POST', requestURL, body)
             .then(data => {
                 cleaningAndClosingForm(form, errorContainer);
-                console.log('Успешный ответ:', data);
+                console.log('Успешная регистрация:', data);
             })
             .catch(err => {
                 displayErrors(err, errorContainer);
-                console.log(err);
+                console.log('Ошибка регистрации:', err);
             });
     });
 }
