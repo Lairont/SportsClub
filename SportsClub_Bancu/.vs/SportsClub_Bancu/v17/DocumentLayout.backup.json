@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3308A2F1-7363-4115-8551-C9447AB4E30B}|SportsClub_Bancu.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportsclub_bancu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3308A2F1-7363-4115-8551-C9447AB4E30B}|SportsClub_Bancu.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3308A2F1-7363-4115-8551-C9447AB4E30B}|SportsClub_Bancu.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportsclub_bancu\\wwwroot\\css\\media_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3308A2F1-7363-4115-8551-C9447AB4E30B}|SportsClub_Bancu.csproj|solutionrelative:wwwroot\\css\\media_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3308A2F1-7363-4115-8551-C9447AB4E30B}|SportsClub_Bancu.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportsclub_bancu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3308A2F1-7363-4115-8551-C9447AB4E30B}|SportsClub_Bancu.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3308A2F1-7363-4115-8551-C9447AB4E30B}|SportsClub_Bancu.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportsclub_bancu\\wwwroot\\js\\shared_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -67,7 +67,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -79,8 +79,7 @@
               "RelativeToolTip": "wwwroot\\js\\shared_script.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-06T12:31:18.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T12:31:18.465Z"
             },
             {
               "$type": "Document",
@@ -92,12 +91,11 @@
               "RelativeToolTip": "wwwroot\\css\\login_and_registration.css",
               "ViewState": "AgIAAKUAAAAAAAAAAAAAALgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-04T16:58:59.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T16:58:59.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -105,18 +103,17 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACIAAAAAAAAAAAAAwC8AAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T16:58:59.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T16:58:59.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "media_style.css",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\wwwroot\\css\\media_style.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\media_style.css",
               "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\wwwroot\\css\\media_style.css",
               "RelativeToolTip": "wwwroot\\css\\media_style.css",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAgwIgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAgwHYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-11-06T11:17:13.356Z",
               "EditorCaption": ""
@@ -131,8 +128,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-04T16:58:59.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T16:58:59.395Z"
             },
             {
               "$type": "Document",
