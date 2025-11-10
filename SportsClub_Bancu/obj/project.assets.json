@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\petrb\\.nuget\\packages\\": {},
+    "F:\\Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\315б\\Новая папка\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
+      "projectUniqueName": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
       "projectName": "SportsClub_Bancu",
-      "projectPath": "E:\\315б\\Новая папка\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
-      "packagesPath": "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\",
-      "outputPath": "E:\\315б\\Новая папка\\SportsClub\\SportsClub_Bancu\\obj\\",
+      "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
+      "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
+      "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "F:\\Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "D:\\Users\\tmu4.SERVER-ECONOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\petrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -58,8 +58,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
-              "projectPath": "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
+            "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
+              "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
             }
           }
         }
@@ -98,7 +98,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
