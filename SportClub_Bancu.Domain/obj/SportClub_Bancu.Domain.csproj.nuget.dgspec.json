@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {}
+    "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {}
   },
   "projects": {
-    "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
+    "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
+        "projectUniqueName": "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
         "projectName": "SportClub_Bancu.Domain",
-        "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
-        "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
-        "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\obj\\",
+        "projectPath": "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
+        "packagesPath": "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\",
+        "outputPath": "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\petrb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\tmu4.SERVER-ECONOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SporClub_Bancu.DAL\SporClub_Bancu.DAL.csproj" />
     <ProjectReference Include="..\SportClub_Bancu.Domain\SportClub_Bancu.Domain.csproj" />
   </ItemGroup>
 

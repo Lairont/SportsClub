@@ -1,0 +1,13 @@
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\bin\Debug\net8.0\SporClub_Bancu.DAL.deps.json
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\bin\Debug\net8.0\SporClub_Bancu.DAL.dll
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\bin\Debug\net8.0\SporClub_Bancu.DAL.pdb
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub_Bancu.DAL.csproj.AssemblyReference.cache
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub_Bancu.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub_Bancu.DAL.AssemblyInfoInputs.cache
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub_Bancu.DAL.AssemblyInfo.cs
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub_Bancu.DAL.csproj.CoreCompileInputs.cache
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub_Bancu.DAL.sourcelink.json
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub_Bancu.DAL.dll
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\refint\SporClub_Bancu.DAL.dll
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub_Bancu.DAL.pdb
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\ref\SporClub_Bancu.DAL.dll
