@@ -18,8 +18,8 @@ namespace SportClub_Bancu.Domain.ModelsDb
         [Column("quantity")]
         public int Quantity { get; set; }
 
-        [Column("status")] // например: "issued", "returned", "overdue"
-        public OrderStatus Status { get; set; } // или OrderStatus Status, если используете enum
+        [Column("status")] 
+        public OrderStatus Status { get; set; } 
 
         [Column("issuedAt", TypeName = "timestamp")]
         public DateTime IssuedAt { get; set; }
@@ -32,5 +32,9 @@ namespace SportClub_Bancu.Domain.ModelsDb
 
         [Column("notes")]
         public string? Notes { get; set; }
+
+        public ICollection<InventoryDb> InventoryDb { get; set; }
+
+        public UserDb UserDb { get; set; }
     }
 }

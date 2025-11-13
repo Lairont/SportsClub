@@ -11,3 +11,8 @@ E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\Sp
 E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\refint\SporClub_Bancu.DAL.dll
 E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub_Bancu.DAL.pdb
 E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\ref\SporClub_Bancu.DAL.dll
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\bin\Debug\net8.0\SportClub_Bancu.Domain.dll
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\bin\Debug\net8.0\SportClub_Bancu.Domain.pdb
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub.1ABD0DF4.Up2Date
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\bin\Debug\net8.0\SporClub_Bancu.DAL.runtimeconfig.json
+E:\315б\Новая папка\SportsClub\SporClub_Bancu.DAL\obj\Debug\net8.0\SporClub_Bancu.DAL.genruntimeconfig.cache

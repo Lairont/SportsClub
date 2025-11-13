@@ -42,5 +42,11 @@ namespace SportClub_Bancu.Domain.ModelsDb
 
         [Column("updatedAt", TypeName = "timestamp")]
         public DateTime? UpdatedAt { get; set; }
+
+        public CategoriesDb CategoryDb { get; set; }
+
+        public ICollection< OrdersDb> OrdersDb { get; set; }
+
+        public ICollection<PicturesInventoryDb> PicturesInventoryDb { get; set; }
     }
 }

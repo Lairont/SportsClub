@@ -18,5 +18,7 @@ namespace SportClub_Bancu.Domain.ModelsDb
 
         [Column("createdAt", TypeName = "timestamp")]
         public DateTime CreatedAt { get; set; }
+
+        public ICollection<InventoryDb> Inventory { get; set; }
     }
 }

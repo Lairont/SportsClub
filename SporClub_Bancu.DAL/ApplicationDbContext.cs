@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using SportClub_Bancu.Domain.ModelsDb;
 
 
 namespace SporClub_Bancu.DAL

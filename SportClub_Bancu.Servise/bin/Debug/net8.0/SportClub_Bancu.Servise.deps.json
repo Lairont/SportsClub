@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SportClub_Bancu.Servise/1.0.0": {
+        "runtime": {
+          "SportClub_Bancu.Servise.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SportClub_Bancu.Servise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

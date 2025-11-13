@@ -17,12 +17,14 @@ namespace SportClub_Bancu.Domain.ModelsDb
         public Guid InventoryId { get; set; }
 
         [Column("path")]
-        public string Path { get; set; } // путь к изображению (относительный или абсолютный)
+        public string Path { get; set; }
 
         [Column("uploadedAt", TypeName = "timestamp")]
         public DateTime UploadedAt { get; set; }
 
         [Column("description")]
         public string? Description { get; set; }
+
+        public InventoryDb InventoryDb { get; set; }
     }
 }

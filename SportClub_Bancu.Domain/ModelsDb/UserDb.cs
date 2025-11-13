@@ -1,5 +1,4 @@
 ﻿using SportClub_Bancu.Domain.Enum;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
 
@@ -28,5 +27,8 @@ namespace SportClub_Bancu.Domain.ModelsDb
 
             [Column("createdAt", TypeName = "timestamp")]
             public DateTime CreatedAt { get; set; }
+
+
+        public ICollection<OrdersDb> Orders { get; set; }
         }
     }
