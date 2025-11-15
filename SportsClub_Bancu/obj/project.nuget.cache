@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tu/KohuuMRo=",
-  "success": true,
+  "dgSpecHash": "1bFGN2ySiQM=",
+  "success": false,
   "projectFilePath": "E:\\315б\\Новая папка\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
   "expectedPackageFiles": [
+    "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
@@ -11,6 +12,7 @@
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0\\microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.5.0\\microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.5.0\\microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
+    "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.10\\microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.10\\microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512",
@@ -39,10 +41,23 @@
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Предупреждение как ошибка: Обнаружено понижение версии пакета AutoMapper с 15.1.0 на 10.0.0. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n SportsClub_Bancu -> SportClub_Bancu.Servise -> AutoMapper (>= 15.1.0) \r\n SportsClub_Bancu -> AutoMapper (>= 10.0.0)",
+      "projectPath": "E:\\315б\\Новая папка\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
+      "filePath": "E:\\315б\\Новая папка\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Inter\" />
+    <ProjectReference Include="..\SportClub_Bancu.Domain\SportClub_Bancu.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.1.0" />
   </ItemGroup>
 
 </Project>

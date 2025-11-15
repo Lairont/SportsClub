@@ -113,11 +113,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj": {
-                "projectPath": "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -182,7 +178,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
+                "projectPath": "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -200,6 +200,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

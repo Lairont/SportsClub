@@ -17,4 +17,8 @@
     <ProjectReference Include="..\SportClub_Bancu.Servise\SportClub_Bancu.Servise.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
 </Project>
