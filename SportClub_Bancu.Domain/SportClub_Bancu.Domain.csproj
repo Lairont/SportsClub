@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SportClub_Bancu.Servise\SportClub_Bancu.Servise.csproj" />
+  </ItemGroup>
+
 </Project>

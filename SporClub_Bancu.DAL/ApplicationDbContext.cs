@@ -10,11 +10,11 @@ namespace SporClub_Bancu.DAL
 
 
 
-        public DbSet<UserDb> Users { get; set; }
-        public DbSet<InventoryDb> Inventory { get; set; }
-        public DbSet<CategoriesDb> Categories { get; set; }
-        public DbSet<OrdersDb> Orders { get; set; }
-        public DbSet<PicturesInventoryDb> PicturesInventory { get; set; }
+        public DbSet<UserDb> UsersDb { get; set; }
+        public DbSet<InventoryDb> InventoryDb { get; set; }
+        public DbSet<CategoriesDb> CategoriesDb { get; set; }
+        public DbSet<OrdersDb> OrdersDb { get; set; }
+        public DbSet<PicturesInventoryDb> PicturesInventoryDb { get; set; }
 
 
         protected readonly IConfiguration configuration;

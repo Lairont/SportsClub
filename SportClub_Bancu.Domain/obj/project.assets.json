@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "SportClub_Bancu.Servise/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SportClub_Bancu.Servise.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SportClub_Bancu.Servise.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SportClub_Bancu.Servise/1.0.0": {
+      "type": "project",
+      "path": "../SportClub_Bancu.Servise/SportClub_Bancu.Servise.csproj",
+      "msbuildProject": "../SportClub_Bancu.Servise/SportClub_Bancu.Servise.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "SportClub_Bancu.Servise >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "D:\\Users\\tmu4.SERVER-ECONOM\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj": {
+              "projectPath": "E:\\315б\\Новая папка\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

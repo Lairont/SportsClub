@@ -3,13 +3,64 @@
   "WorkspaceRootPath": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\enum\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\modelsdb\\categoriesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\models\\pictures_inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\modelsdb\\pictures_inventorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\modelsdb\\inventorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\modelsdb\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\storage\\userstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\storage\\picturesinventorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\storage\\ordersstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\storage\\inventorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\storage\\categoriesstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\enum\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\sporclub_bancu.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -18,19 +69,7 @@
       "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\migrations\\20251113080855_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\modelsdb\\inventorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\migrations\\20251113090425_initnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\modelsdb\\pictures_inventorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\modelsdb\\categoriesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3308A2F1-7363-4115-8551-C9447AB4E30B}|SportsClub_Bancu.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportsclub_bancu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -51,9 +90,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3308A2F1-7363-4115-8551-C9447AB4E30B}|SportsClub_Bancu.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportsclub_bancu\\sportsclub_bancu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3308A2F1-7363-4115-8551-C9447AB4E30B}|SportsClub_Bancu.csproj|solutionrelative:sportsclub_bancu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7E526F6-2E92-4411-B89D-6AD9F3A3B3D0}|..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sporclub_bancu.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0CDA7A2-06D0-4B0E-B058-AFF2EEA9C355}|..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj|e:\\315\u0431\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\sportsclub\\sportclub_bancu.domain\\sportclub_bancu.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -124,27 +160,68 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20251113090425_InitNew.cs",
-              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Migrations\\20251113090425_InitNew.cs",
-              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Migrations\\20251113090425_InitNew.cs",
-              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Migrations\\20251113090425_InitNew.cs",
-              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Migrations\\20251113090425_InitNew.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CategoriesDb.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\CategoriesDb.cs",
+              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\ModelsDb\\CategoriesDb.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\CategoriesDb.cs",
+              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\ModelsDb\\CategoriesDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T09:04:25.529Z"
+              "WhenOpened": "2025-11-12T11:46:42.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SporClub_Bancu.DAL.csproj",
-              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
-              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
-              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
-              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-12T10:48:53.481Z"
+              "DocumentIndex": 1,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Models\\Categories.cs",
+              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\Models\\Categories.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Models\\Categories.cs",
+              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\Models\\Categories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:49:26.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\Models\\Inventory.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Models\\Inventory.cs",
+              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\Models\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:49:06.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enum.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Enum\\Enum.cs",
+              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\Enum\\Enum.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Enum\\Enum.cs",
+              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\Enum\\Enum.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwEEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:32:52.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pictures_inventory.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Models\\Pictures_inventory.cs",
+              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\Models\\Pictures_inventory.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Models\\Pictures_inventory.cs",
+              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\Models\\Pictures_inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:50:01.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -154,38 +231,209 @@
               "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\ModelsDb\\OrdersDb.cs",
               "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\OrdersDb.cs",
               "RelativeToolTip": "..\\SportClub_Bancu.Domain\\ModelsDb\\OrdersDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T11:45:20.626Z"
+              "WhenOpened": "2025-11-12T11:45:20.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Pictures_inventoryDb.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\Pictures_inventoryDb.cs",
+              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\ModelsDb\\Pictures_inventoryDb.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\Pictures_inventoryDb.cs",
+              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\ModelsDb\\Pictures_inventoryDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:47:22.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Models\\Orders.cs",
+              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\Models\\Orders.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Models\\Orders.cs",
+              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\Models\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:48:37.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\Models\\User.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Models\\User.cs",
+              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:48:11.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InventoryDb.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\InventoryDb.cs",
+              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\ModelsDb\\InventoryDb.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\InventoryDb.cs",
+              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\ModelsDb\\InventoryDb.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAywCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:44:09.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserDb.cs",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\UserDb.cs",
               "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\ModelsDb\\UserDb.cs",
               "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\UserDb.cs",
               "RelativeToolTip": "..\\SportClub_Bancu.Domain\\ModelsDb\\UserDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T11:24:47.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InventoryDb.cs",
-              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\InventoryDb.cs",
-              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\ModelsDb\\InventoryDb.cs",
-              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\InventoryDb.cs",
-              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\ModelsDb\\InventoryDb.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA0wDAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "OrdersStorage.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Storage\\OrdersStorage.cs",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Storage\\OrdersStorage.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Storage\\OrdersStorage.cs",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Storage\\OrdersStorage.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T11:44:09.988Z"
+              "WhenOpened": "2025-11-15T08:54:38.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
+              "Title": "PicturesInventoryStorage.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Storage\\PicturesInventoryStorage.cs",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Storage\\PicturesInventoryStorage.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Storage\\PicturesInventoryStorage.cs",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Storage\\PicturesInventoryStorage.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T08:55:57.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserStorage.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Storage\\UserStorage.cs",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Storage\\UserStorage.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Storage\\UserStorage.cs",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Storage\\UserStorage.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T08:53:50.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InventoryStorage.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Storage\\InventoryStorage.cs",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Storage\\InventoryStorage.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Storage\\InventoryStorage.cs",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Storage\\InventoryStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T08:55:01.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoriesStorage.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Storage\\CategoriesStorage.cs",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Storage\\CategoriesStorage.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Storage\\CategoriesStorage.cs",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Storage\\CategoriesStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T08:55:38.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Interface1.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Interface1.cs",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Interface1.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Interface1.cs",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Interface1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T08:32:21.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T10:59:37.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:36:24.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Class1.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Class1.cs",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:13:20.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SporClub_Bancu.DAL.csproj",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-12T10:48:53.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "20251113080855_Init.cs",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Migrations\\20251113080855_Init.cs",
               "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Migrations\\20251113080855_Init.cs",
@@ -197,44 +445,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Enum.cs",
-              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Enum\\Enum.cs",
-              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\Enum\\Enum.cs",
-              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\Enum\\Enum.cs",
-              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\Enum\\Enum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "20251113090425_InitNew.cs",
+              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Migrations\\20251113090425_InitNew.cs",
+              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Migrations\\20251113090425_InitNew.cs",
+              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Migrations\\20251113090425_InitNew.cs",
+              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Migrations\\20251113090425_InitNew.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T11:32:52.026Z"
+              "WhenOpened": "2025-11-13T09:04:25.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T10:59:37.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoriesDb.cs",
-              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\CategoriesDb.cs",
-              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\ModelsDb\\CategoriesDb.cs",
-              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\CategoriesDb.cs",
-              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\ModelsDb\\CategoriesDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T11:46:42.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -246,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "SportsClub_Bancu.csproj",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
               "RelativeDocumentMoniker": "SportsClub_Bancu.csproj",
@@ -258,19 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Pictures_inventoryDb.cs",
-              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\Pictures_inventoryDb.cs",
-              "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\ModelsDb\\Pictures_inventoryDb.cs",
-              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ModelsDb\\Pictures_inventoryDb.cs",
-              "RelativeToolTip": "..\\SportClub_Bancu.Domain\\ModelsDb\\Pictures_inventoryDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T11:47:22.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "LoginViewModel.cs",
@@ -282,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "RegisterViewModel.cs",
@@ -294,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -306,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -318,19 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\SporClub_Bancu.DAL\\Class1.cs",
-              "ToolTip": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SporClub_Bancu.DAL\\Class1.cs",
-              "RelativeToolTip": "..\\SporClub_Bancu.DAL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T11:13:20.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "SportClub_Bancu.Domain.csproj",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
               "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
@@ -342,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -354,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "shared_script.js",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\wwwroot\\js\\shared_script.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\shared_script.js",
@@ -366,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 32,
               "Title": "SiteInformation.cshtml",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\Views\\Home\\SiteInformation.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\SiteInformation.cshtml",
@@ -378,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 33,
               "Title": "login_and_registration_script.js",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\wwwroot\\js\\login_and_registration_script.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\login_and_registration_script.js",
@@ -390,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
@@ -402,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 35,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -414,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 39,
               "Title": "media_style.css",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\wwwroot\\css\\media_style.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\media_style.css",
@@ -426,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 37,
               "Title": "site.css",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -438,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 40,
               "Title": "Message.css",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\wwwroot\\css\\Message.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Message.css",
@@ -450,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 36,
               "Title": "login_and_registration.css",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\wwwroot\\css\\login_and_registration.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\login_and_registration.css",
@@ -462,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 38,
               "Title": "_LoginRegistrationPartial.cshtml",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginRegistrationPartial.cshtml",
@@ -474,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 41,
               "Title": "home_script.js",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportsClub_Bancu\\wwwroot\\js\\home_script.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\home_script.js",
@@ -486,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 42,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "E:\\315\u0431\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SportsClub\\SportClub_Bancu.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "..\\SportClub_Bancu.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
