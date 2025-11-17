@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SporClub_Bancu.DAL;
+using SportClub_Bancu;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,8 @@ builder.Services.AddControllersWithViews();
 string connection = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(connection));
+builder.Services.InitializeRepositories();
+builder.Services.InitializeServices();
 
 var app = builder.Build();
 

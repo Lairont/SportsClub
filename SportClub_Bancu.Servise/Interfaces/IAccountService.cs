@@ -12,6 +12,6 @@ namespace SportClub_Bancu.Servise.Interfaces
     public interface IAccountService
     {
         Task<BaseResponse<User>> Register(User model);
-        Task<BaseResponse<User>> login(User model);
+        Task<BaseResponse<User>> Login(User model);
     }
 }

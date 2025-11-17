@@ -34,9 +34,6 @@
             "projectReferences": {
               "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
                 "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
-              },
-              "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj": {
-                "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj"
               }
             }
           }
@@ -179,6 +176,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
+                "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj"
+              },
               "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
                 "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
               }
@@ -203,7 +203,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[15.1.0, )"
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -284,7 +284,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

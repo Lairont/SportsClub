@@ -8,11 +8,24 @@
     ".NETCoreApp,Version=v8.0": {
       "SportsClub_Bancu/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "SporClub_Bancu.DAL": "1.0.0",
-          "SportClub_Bancu.Domain": "1.0.0"
+          "SportClub_Bancu.Domain": "1.0.0",
+          "SportClub_Bancu.Servise": "1.0.0"
         },
         "runtime": {
           "SportsClub_Bancu.dll": {}
+        }
+      },
+      "AutoMapper/13.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
+          }
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -538,6 +551,19 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "SportClub_Bancu.Servise/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "SporClub_Bancu.DAL": "1.0.0",
+          "SportClub_Bancu.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SportClub_Bancu.Servise.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -546,6 +572,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -826,6 +859,11 @@
       "sha512": ""
     },
     "SportClub_Bancu.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SportClub_Bancu.Servise/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -13,7 +13,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\SportClub_Bancu.Domain\SportClub_Bancu.Domain.csproj" />
-		<ProjectReference Include="..\SportClub_Bancu.Servise\SportClub_Bancu.Servise.csproj" />
 	</ItemGroup>
 
 </Project>

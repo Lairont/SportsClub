@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SportClub_Bancu.Domain\SportClub_Bancu.Domain.csproj" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="15.1.0" />
+    <ProjectReference Include="..\SporClub_Bancu.DAL\SporClub_Bancu.DAL.csproj" />
+    <ProjectReference Include="..\SportClub_Bancu.Domain\SportClub_Bancu.Domain.csproj" />
   </ItemGroup>
 
 </Project>
