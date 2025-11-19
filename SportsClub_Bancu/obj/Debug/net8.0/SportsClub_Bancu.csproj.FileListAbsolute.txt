@@ -237,3 +237,7 @@ F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SporC
 F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Servise.dll
 F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SporClub_Bancu.DAL.pdb
 F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Servise.pdb
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cs
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.dll
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

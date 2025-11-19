@@ -7,8 +7,11 @@ using System.Linq;
 using SporClub_Bancu.DAL;
 using SportClub_Bancu.Domain.Response;
 using Microsoft.EntityFrameworkCore;
-using System.ComponentModel;
-using System.Threading.Tasks;
+using FluentValidation;
+using SportClub_Bancu.Domain.Validators;
+using System.Security.Claims;
+using SportClub_Bancu.Domain.Helpers;
+using System.Linq.Expressions;
 
 namespace SportClub_Bancu.Servise.Realizations
 {
@@ -18,51 +21,59 @@ namespace SportClub_Bancu.Servise.Realizations
 
         private IMapper _mapper { get; set; }
 
-         MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
+        private UserValidator _validationRules { get; set; }
+
+        MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
         {
-           p.AddProfile<AppMappingProfile>();
+            p.AddProfile<AppMappingProfile>();
         });
 
         public AccountService(IBaseStorage<UserDb> userStorage)
         {
             _userStorage = userStorage;
             _mapper = mapperConfiguration.CreateMapper();
-            //var config = new MapperConfiguration(cfg =>
-            //{
-            //    cfg.AddProfile<AppMappingProfile>();
-            //});
-            //_mapper = config.CreateMapper();
+            _validationRules = new UserValidator();
         }
 
-        public async Task<BaseResponse<User>> Login(User model) 
+        public async Task<BaseResponse<ClaimsIdentity>> Login(User model)
         {
             try
             {
+                await _validationRules.ValidateAndThrowAsync(model);
                 var userdb = _mapper.Map<UserDb>(model);
                 var existingUser = await _userStorage.GetAll().FirstOrDefaultAsync(x => x.Email == userdb.Email);
                 if (existingUser == null)
                 {
-                    return new BaseResponse<User>
+                    return new BaseResponse<ClaimsIdentity>
                     {
                         Description = "Пользователь не найден"
                     };
                 }
-                if (existingUser.Password != userdb.Password) 
+                if (existingUser.Password != HashPasswordHelper.HashPassword(model.Password))
                 {
-                    return new BaseResponse<User>
+                    return new BaseResponse<ClaimsIdentity>
                     {
                         Description = "Неверный пароль или почта"
                     };
                 }
-                return new BaseResponse<User>
+                return new BaseResponse<ClaimsIdentity>
                 {
-                    Data = _mapper.Map<User>(existingUser), 
+                    Data = _mapper.Map<ClaimsIdentity>(existingUser),
                     StatusCode = StatusCode.OK
+                };
+            }
+            catch (ValidationException ex)
+            {
+                var errorMessages = string.Join("; ", ex.Errors.Select(e => e.ErrorMessage));
+                return new BaseResponse<ClaimsIdentity>
+                {
+                    Description = errorMessages,
+                    StatusCode = StatusCode.BadRequest
                 };
             }
             catch (Exception ex)
             {
-                return new BaseResponse<User>
+                return new BaseResponse<ClaimsIdentity>
                 {
                     Description = ex.Message,
                     StatusCode = StatusCode.InternalError
@@ -70,37 +81,58 @@ namespace SportClub_Bancu.Servise.Realizations
             }
         }
 
-        public async Task<BaseResponse<User>> Register(User model)
+        public async Task<BaseResponse<ClaimsIdentity>> Register(User model)
         {
             try
             {
                 model.PathImage = "images/user.png";
                 model.CreatedAt = DateTime.Now;
-                var userdb = _mapper.Map<UserDb>(model); 
+                model.Password = HashPasswordHelper.HashPassword(model.Password);
 
-                if (await _userStorage.GetAll().FirstOrDefaultAsync(x => x.Email == userdb.Email) != null) 
+                await _validationRules.ValidateAndThrowAsync(model);
+
+                var userdb = _mapper.Map<UserDb>(model);
+
+                if (await _userStorage.GetAll().FirstOrDefaultAsync(x => x.Email == userdb.Email) != null)
                 {
-                    return new BaseResponse<User>
+                    return new BaseResponse<ClaimsIdentity>
                     {
-                        Description = "Пользователь с такой почтой уже есть", 
+                        Description = "Пользователь с такой почтой уже есть",
                     };
                 }
-                await _userStorage.Add(userdb); 
-                return new BaseResponse<User>
+                await _userStorage.Add(userdb);
+
+                //.
+                var result = AuthenticateUserHelper.Authenticate(model);
+
+                return new BaseResponse<ClaimsIdentity>
                 {
-                    Data = model,
+
+                    //была ошибка
+                    Data = result,
                     Description = "Пользователь зарегистрирован",
                     StatusCode = StatusCode.OK
                 };
             }
+            catch (ValidationException ex)
+            {
+                var errorMessages = string.Join("; ", ex.Errors.Select(e => e.ErrorMessage));
+                return new BaseResponse<ClaimsIdentity>
+                {
+                    Description = errorMessages,
+                    StatusCode = StatusCode.BadRequest
+                };
+            }
             catch (Exception ex)
             {
-                return new BaseResponse<User> 
+                return new BaseResponse<ClaimsIdentity>
                 {
                     Description = ex.Message,
-                    StatusCode = StatusCode.InternalError // Исправлено: InternalServerError
+                    StatusCode = StatusCode.InternalError
                 };
             }
         }
+
+
     }
 }

@@ -13,11 +13,8 @@
 </head>
 <body>
     <header class="main-header">
-        <div class="logo">FitStock</div>
-
+        <div class="logo">FitStock</div>   
    
-            
-
         <!-- Кнопка-гамбургер для мобильного меню -->
         <div id="hamburger" class="icon">&#9776;</div>
 
@@ -46,13 +43,38 @@
                 </ul>
               
             </div>
+
+             @if (User.Identity.IsAuthenticated)
+            {
+                <button class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">Выйти</button>
+            }
+            else
+            {
             <button id="open-login-side">Войти</button>
-         
+            }
         </div>   
-        
+    
+
         <div class="button-header">
-            <button id="open-login">Войти</button>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <button class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">Выйти</button>
+            }
+            else
+            {
+                <button id="open-login">Войти</button>
+            }
         </div>
+
+
+
+      @*   <div class="button-header">
+            <button id="open-login">Войти</button>
+        </div> *@
+
+
+
+
     </header>
 
     <img class="img-header" src="~/images/fin.jpg" alt="Путешествия" />

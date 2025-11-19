@@ -1,6 +1,7 @@
 using AutoMapper;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-
 using SportClub_Bancu.Domain.Enum;
 using SportClub_Bancu.Domain.ModelsDb;
 using SportClub_Bancu.Domain.ViewModels.LoginAndRegistration;
@@ -9,7 +10,7 @@ using SportClub_Bancu.Servise.Interfaces;
 using SportsClub_Bancu.Models; 
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks; 
+using System.Security.Claims;
 
 namespace SportsClub_Bancu.Controllers
 {
@@ -17,7 +18,7 @@ namespace SportsClub_Bancu.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IAccountService _accountService; 
-        private readonly IMapper _mapper;
+        private  IMapper _mapper { get; set; }
 
         MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
         {
@@ -47,6 +48,9 @@ namespace SportsClub_Bancu.Controllers
                 var response = await _accountService.Login(user);
                 if (response.StatusCode == SportClub_Bancu.Domain.Response.StatusCode.OK)
                 {
+
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                        new ClaimsPrincipal(response.Data));
                     return Ok(model);
                 }
 
@@ -57,29 +61,72 @@ namespace SportsClub_Bancu.Controllers
                                           .ToList();
             return BadRequest(errors);
         }
+
+
+        [AutoValidateAntiforgeryToken]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("SiteInformation", "Home");
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> Register([FromBody] RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var user = _mapper.Map<User>(model);
 
+                var user = new User
+                {
+                    Login = model.Login,
+                    Email = model.Email,
+                    Password = model.Password
+                };
 
                 var response = await _accountService.Register(user);
+
                 if (response.StatusCode == SportClub_Bancu.Domain.Response.StatusCode.OK)
                 {
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                      new ClaimsPrincipal(response.Data));
                     return Ok(model);
+
                 }
 
                 ModelState.AddModelError("", response.Description);
             }
-            var errors = ModelState.Values.SelectMany(v => v.Errors)
-                                          .Select(e => e.ErrorMessage)
-                                          .ToList();
+
+            var errors = ModelState.Values
+                                   .SelectMany(v => v.Errors)
+                                   .Select(e => e.ErrorMessage)
+                                   .ToList();
 
             return BadRequest(errors);
         }
+
+        //[HttpPost]
+        //public async Task<IActionResult> Register([FromBody] RegisterViewModel model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var user = _mapper.Map<User>(model);
+
+
+        //        var response = await _accountService.Register(user);
+        //        if (response.StatusCode == SportClub_Bancu.Domain.Response.StatusCode.OK)
+        //        {
+        //            return Ok(model);
+        //        }
+
+        //        ModelState.AddModelError("", response.Description);
+        //    }
+        //    var errors = ModelState.Values.SelectMany(v => v.Errors)
+        //                                  .Select(e => e.ErrorMessage)
+        //                                  .ToList();
+
+        //    return BadRequest(errors);
+        //}
 
         public IActionResult Privacy()
         {

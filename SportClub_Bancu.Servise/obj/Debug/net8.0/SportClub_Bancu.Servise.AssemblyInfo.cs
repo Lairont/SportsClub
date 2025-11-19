@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportClub_Bancu.Servise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+224d1ab1ffa07bb97cb34e99d0a48af227954e31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e9e54e9a6d75f0febc939188c9ac049a6ab16bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportClub_Bancu.Servise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportClub_Bancu.Servise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

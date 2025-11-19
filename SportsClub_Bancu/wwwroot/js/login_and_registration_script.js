@@ -140,17 +140,17 @@ if (form_btn_signup) {
         const errorContainer = document.getElementById('error-messages-singup');
 
         const form = {
-            login: document.getElementById("signup_login"),
-            email: document.getElementById("signup_email"),
-            password: document.getElementById("signup_password"),
-            passwordConfirm: document.getElementById("signup_confirm_password")
+            Login: document.getElementById("signup_login"),
+            Email: document.getElementById("signup_email"),
+            Password: document.getElementById("signup_password"),
+            PasswordConfirm: document.getElementById("signup_confirm_password")
         };
 
         const body = {
-            login: form.login.value,
-            email: form.email.value,
-            password: form.password.value,
-            passwordReset: form.passwordConfirm.value // ← возможно, сервер ожидает passwordConfirm — проверьте!
+            Login: form.Login.value,
+            Email: form.Email.value,
+            Password: form.Password.value,
+            PasswordReset: form.PasswordConfirm.value 
         };
 
         sendRequest('POST', requestURL, body)

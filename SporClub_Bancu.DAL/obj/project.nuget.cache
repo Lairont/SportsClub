@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "i266MHBGy1U=",
+  "dgSpecHash": "5sVOGo47f8I=",
   "success": true,
   "projectFilePath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\petrb\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\petrb\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.0\\fluentvalidation.aspnetcore.11.2.0.nupkg.sha512",
+    "C:\\Users\\petrb\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.1.0\\fluentvalidation.dependencyinjectionextensions.11.1.0.nupkg.sha512",
     "C:\\Users\\petrb\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\petrb\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\petrb\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

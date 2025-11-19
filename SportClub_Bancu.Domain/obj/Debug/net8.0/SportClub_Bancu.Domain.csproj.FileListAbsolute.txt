@@ -22,3 +22,4 @@ F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0
 F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\refint\SportClub_Bancu.Domain.dll
 F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\SportClub_Bancu.Domain.pdb
 F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\ref\SportClub_Bancu.Domain.dll
+F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Domain\obj\Debug\net8.0\SportClub_Bancu.Domain.csproj.AssemblyReference.cache
