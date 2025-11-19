@@ -35,6 +35,9 @@ namespace SportClub_Bancu.Servise.Realizations
             _validationRules = new UserValidator();
         }
 
+
+
+
         public async Task<BaseResponse<ClaimsIdentity>> Login(User model)
         {
             try
@@ -56,9 +59,18 @@ namespace SportClub_Bancu.Servise.Realizations
                         Description = "Неверный пароль или почта"
                     };
                 }
+
+                var claims = new List<Claim>
+        {
+            new Claim(ClaimsIdentity.DefaultNameClaimType, existingUser.Login ?? string.Empty),
+            new Claim(ClaimTypes.Email, existingUser.Email ?? string.Empty),
+            new Claim(ClaimTypes.Role, existingUser.Role.ToString())
+        };
+                var identity = new ClaimsIdentity(claims, "ApplicationCookie", ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
+
                 return new BaseResponse<ClaimsIdentity>
                 {
-                    Data = _mapper.Map<ClaimsIdentity>(existingUser),
+                    Data = identity,
                     StatusCode = StatusCode.OK
                 };
             }
@@ -80,6 +92,52 @@ namespace SportClub_Bancu.Servise.Realizations
                 };
             }
         }
+
+        //public async Task<BaseResponse<ClaimsIdentity>> Login(User model)
+        //{
+        //    try
+        //    {
+        //        await _validationRules.ValidateAndThrowAsync(model);
+        //        var userdb = _mapper.Map<UserDb>(model);
+        //        var existingUser = await _userStorage.GetAll().FirstOrDefaultAsync(x => x.Email == userdb.Email);
+        //        if (existingUser == null)
+        //        {
+        //            return new BaseResponse<ClaimsIdentity>
+        //            {
+        //                Description = "Пользователь не найден"
+        //            };
+        //        }
+        //        if (existingUser.Password != HashPasswordHelper.HashPassword(model.Password))
+        //        {
+        //            return new BaseResponse<ClaimsIdentity>
+        //            {
+        //                Description = "Неверный пароль или почта"
+        //            };
+        //        }
+        //        return new BaseResponse<ClaimsIdentity>
+        //        {
+        //            Data = _mapper.Map<ClaimsIdentity>(existingUser),
+        //            StatusCode = StatusCode.OK
+        //        };
+        //    }
+        //    catch (ValidationException ex)
+        //    {
+        //        var errorMessages = string.Join("; ", ex.Errors.Select(e => e.ErrorMessage));
+        //        return new BaseResponse<ClaimsIdentity>
+        //        {
+        //            Description = errorMessages,
+        //            StatusCode = StatusCode.BadRequest
+        //        };
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return new BaseResponse<ClaimsIdentity>
+        //        {
+        //            Description = ex.Message,
+        //            StatusCode = StatusCode.InternalError
+        //        };
+        //    }
+        //}
 
         public async Task<BaseResponse<ClaimsIdentity>> Register(User model)
         {

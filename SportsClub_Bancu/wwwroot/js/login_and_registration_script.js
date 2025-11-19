@@ -20,6 +20,7 @@ function sendRequest(method, url, body = null) {
         headers: headers
     }).then(response => {
         if (!response.ok) {
+          
             return response.json().then(errorData => {
                 throw errorData;
             });
@@ -69,7 +70,6 @@ function cleaningAndClosingForm(form, errorContainer) {
 document.addEventListener('DOMContentLoaded', function () {
     const overlay = document.querySelector(".overlay");
 
-    // 👇 Подписываемся на ОБЕ кнопки: основную и в сайд-меню
     const openLoginBtn = document.getElementById("open-login");
     const openLoginSideBtn = document.getElementById("open-login-side");
 
@@ -78,7 +78,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (overlay) overlay.addEventListener("click", toggleLoginContainer);
 
-    // Переключение форм (вход/регистрация)
     const signInBtn = document.querySelector('.signin-btn');
     const signUpBtn = document.querySelector('.signup-btn');
     const formBox = document.querySelector('.form-box');
@@ -121,6 +120,7 @@ if (form_btn_signin) {
             .then(data => {
                 cleaningAndClosingForm(form, errorContainer);
                 console.log('Успешный вход:', data);
+                location.reload();
             })
             .catch(err => {
                 displayErrors(err, errorContainer);
@@ -157,6 +157,7 @@ if (form_btn_signup) {
             .then(data => {
                 cleaningAndClosingForm(form, errorContainer);
                 console.log('Успешная регистрация:', data);
+                location.reload();
             })
             .catch(err => {
                 displayErrors(err, errorContainer);

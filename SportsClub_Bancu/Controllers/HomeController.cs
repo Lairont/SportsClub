@@ -42,25 +42,60 @@ namespace SportsClub_Bancu.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = _mapper.Map<User>(model);
-
+            
+                var user = new User
+                {
+                    Email = model.Email,
+                    Password = model.Password
+                };
 
                 var response = await _accountService.Login(user);
+
                 if (response.StatusCode == SportClub_Bancu.Domain.Response.StatusCode.OK)
                 {
-
-                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                    await HttpContext.SignInAsync(
+                        CookieAuthenticationDefaults.AuthenticationScheme,
                         new ClaimsPrincipal(response.Data));
+
                     return Ok(model);
                 }
 
                 ModelState.AddModelError("", response.Description);
             }
-            var errors = ModelState.Values.SelectMany(v => v.Errors)
-                                          .Select(e => e.ErrorMessage)
-                                          .ToList();
+
+            var errors = ModelState.Values
+                                   .SelectMany(v => v.Errors)
+                                   .Select(e => e.ErrorMessage)
+                                   .ToList();
+
             return BadRequest(errors);
         }
+
+
+        //[HttpPost]
+        //public async Task<IActionResult> Login([FromBody] LoginViewModel model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var user = _mapper.Map<User>(model);
+
+
+        //        var response = await _accountService.Login(user);
+        //        if (response.StatusCode == SportClub_Bancu.Domain.Response.StatusCode.OK)
+        //        {
+
+        //            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+        //                new ClaimsPrincipal(response.Data));
+        //            return Ok(model);
+        //        }
+
+        //        ModelState.AddModelError("", response.Description);
+        //    }
+        //    var errors = ModelState.Values.SelectMany(v => v.Errors)
+        //                                  .Select(e => e.ErrorMessage)
+        //                                  .ToList();
+        //    return BadRequest(errors);
+        //}
 
 
         [AutoValidateAntiforgeryToken]
