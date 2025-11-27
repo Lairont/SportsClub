@@ -1,3 +1,5 @@
+wwwroot\css\Contact.css
+wwwroot\css\Inventory.css
 wwwroot\css\login_and_registration.css
 wwwroot\css\media_style.css
 wwwroot\css\Message.css
@@ -8,11 +10,15 @@ wwwroot\images\distavka.jpg
 wwwroot\images\email.png
 wwwroot\images\fin.jpg
 wwwroot\images\fint.jpg
+wwwroot\images\google-image.png
+wwwroot\images\instagram.png
 wwwroot\images\mesto.png
 wwwroot\images\poderka.jpg
 wwwroot\images\postrane.jpg
 wwwroot\images\strohovka.jpg
 wwwroot\images\telefon.png
+wwwroot\images\telegram.png
+wwwroot\images\vk.png
 wwwroot\js\home_script.js
 wwwroot\js\login_and_registration_script.js
 wwwroot\js\shared_script.js

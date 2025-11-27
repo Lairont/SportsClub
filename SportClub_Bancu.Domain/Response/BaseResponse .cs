@@ -22,5 +22,6 @@ namespace SportClub_Bancu.Domain.Response
         BadRequest = 400,
         NotFound = 404,
         InternalError = 500,
+        InternalServerError = 501,
     }
 }

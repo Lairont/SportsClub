@@ -1,0 +1,43 @@
+﻿@model List<SportsClub_Bancu.Domain.ViewModels.InventoryViewModel>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Список инвентаря";
+}
+<style>
+    .img-header{
+        display: none;
+    }
+</style>
+<div class="sc-inv-container">
+
+    <div class="sc-inv-link-page">
+        <a href="/Home/SiteInformation">Главная</a> > Инвентарь
+    </div>
+
+    <div class="sc-inv-grid-container">
+        @if (Model != null && Model.Count != 0)
+        {
+            foreach (var item in Model)
+            {
+                <div class="sc-inv-card">
+                    <img src="@item.PathImg" alt="@item.Name" class="sc-inv-card-image" />
+
+                    <div class="sc-inv-card-overlay">
+                        <div class="sc-inv-card-title">@item.Name</div>
+
+                        <p class="sc-inv-card-description">
+                            Количество в наличии: @item.Count <br />
+                            <a href="/Inventory/Details/@item.Id">Подробнее о @item.Name =></a>
+                        </p>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>В настоящее время инвентарь не найден.</p>
+        }
+    </div>
+
+</div>

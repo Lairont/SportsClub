@@ -19,8 +19,8 @@ namespace SportClub_Bancu.Domain.ModelsDb
         [Column("count")]
         public int Count { get; set; }
 
-        [Column("condition")] // обычно строка или enum, но в БД — скорее int/varchar
-        public InventoryCondition Condition { get; set; } // или InventoryCondition Condition, если используете enum
+        [Column("condition")] 
+        public InventoryCondition Condition { get; set; } 
 
         [Column("inventoryNumber")]
         public string InventoryNumber { get; set; }
@@ -31,7 +31,7 @@ namespace SportClub_Bancu.Domain.ModelsDb
         [Column("purchaseDate")]
         public DateTime PurchaseDate { get; set; }
 
-        [Column("warrantyUntil")]
+        [Column("warrantyUntil", TypeName = "timestamp")]
         public DateTime? WarrantyUntil { get; set; }
 
         [Column("notes")]

@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2BD454
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{038D34FD-08B5-5225-4BB7-C6CD50ADF0C2}"
 	ProjectSection(SolutionItems) = preProject
+		InventoryViewModel.cs = InventoryViewModel.cs
 		ServInfo.cshtml = ServInfo.cshtml
 	EndProjectSection
 EndProject

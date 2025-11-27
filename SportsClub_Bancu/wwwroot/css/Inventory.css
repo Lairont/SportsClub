@@ -1,0 +1,141 @@
+﻿/*  ОСНОВНОЙ КОНТЕЙНЕР  */
+
+.sc-inv-container {
+    margin-top: 40px;
+    width: 95%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.sc-inv-link-page {
+    font-weight: 500;
+    line-height: 1.5;
+    color: #bdc3c7;
+    margin: 10px 0;
+    border-left: 4px solid #4cd137;
+    padding: 8px 0 8px 15px;
+    background: rgba(76, 209, 55, 0.1);
+    border-radius: 4px;
+}
+
+    .sc-inv-link-page a {
+        text-decoration: none;
+        color: #ecf0f1;
+        transition: color 0.3s ease;
+    }
+
+        .sc-inv-link-page a:hover {
+            color: #4cd137;
+        }
+
+
+/*  СЕТКА И КАРТОЧКА ИНВЕНТАРЯ  */
+
+
+.sc-inv-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.sc-inv-card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 75%;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+    .sc-inv-card:hover {
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+        transform: translateY(-5px);
+    }
+
+.sc-inv-card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.5, 1);
+}
+
+
+/*  ОВЕРЛЕЙ И КОНТЕНТ  */
+
+.sc-inv-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%);
+    transition: background 0.5s ease-in-out;
+}
+
+.sc-inv-card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    padding: 15px;
+    background: none;
+    width: 100%;
+    text-align: center;
+    line-height: 1.2;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.5, 1);
+    z-index: 10;
+}
+
+.sc-inv-card-description {
+    font-size: 1.05rem;
+    color: #dcdcdc;
+    text-align: center;
+    margin: 10px 20px 0;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out 0.1s, max-height 0.3s ease-in-out;
+}
+
+    .sc-inv-card-description a {
+        color: #4cd137;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+
+/*  ЭФФЕКТЫ ПРИ НАВЕДЕНИИ (HOVER)  */
+
+.sc-inv-card:hover .sc-inv-card-image {
+    transform: scale(1.1);
+}
+
+.sc-inv-card:hover .sc-inv-card-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%);
+    justify-content: center;
+}
+
+.sc-inv-card:hover .sc-inv-card-title {
+    transform: translateY(0);
+    background: none;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.sc-inv-card:hover .sc-inv-card-description {
+    opacity: 1;
+    max-height: 100px;
+    margin-top: 15px;
+}

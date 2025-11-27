@@ -241,3 +241,7 @@ F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\obj\Debug\net8.0\Sport
 F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.dll
 F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\MailKit.dll
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\MimeKit.dll
+F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll

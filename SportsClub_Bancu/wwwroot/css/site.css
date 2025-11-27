@@ -20,6 +20,16 @@ body {
     align-items: center;
 }
 
+
+
+.side-menu {
+    display: none !important;
+}
+
+.icon {
+    display: none !important;
+}
+
 /* ---------------- HEADER ---------------- */
 .main-header {
     position: fixed;
@@ -61,7 +71,7 @@ body {
     }
 
         .menu ul li a {
-/*            border: 2px solid #b2640f;*/
+            /*            border: 2px solid #b2640f;*/
             background-color: transparent;
             padding: 8px 12px;
             border-radius: 15px;
@@ -104,8 +114,8 @@ body {
 
 /* ---------------- IMAGE HEADER ---------------- */
 .img-header {
-    width: 950px;
-    height: 430px;
+    width: 1100px;
+    height: 490px;
     margin: 20px 0 25px;
     border-radius: 12px;
     object-fit: cover;
@@ -119,7 +129,7 @@ body {
 
 /* ---------------- SECTION ---------------- */
 .container-section {
-    width: 80%;
+    width: 30%;
     margin: 40px auto;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 12px;
@@ -245,7 +255,7 @@ body {
     }
 
 /* ---------------- CONTAINER ROW ---------------- */
-.container-row {
+/*.container-row {
     text-align: center;
     max-width: 960px;
     margin: 0 auto;
@@ -283,15 +293,15 @@ body {
         margin: 5px;
         background: rgba(255, 165, 3, 0.7);
         opacity: 1;
-    }
+    }*/
 
 /* ---------------- MAP ---------------- */
-.map {
+/*.map {
     border: 2px solid #ccc;
     border-radius: 5px;
     width: 100%;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
+}*/
 
 /* ---------------- ADAPTIVE ---------------- */
 @media (max-width: 900px) {
@@ -332,11 +342,11 @@ body {
 }
 
 /*login*/
-#error-messages-singin{
-margin-top: 10px;
-}
-.error{
-    color:red;
-    font-size:13px;
+#error-messages-singin {
+    margin-top: 10px;
 }
 
+.error {
+    color: red;
+    font-size: 13px;
+}

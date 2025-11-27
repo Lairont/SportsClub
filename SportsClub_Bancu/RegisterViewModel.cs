@@ -21,4 +21,5 @@ public class RegisterViewModel
     [Required(ErrorMessage ="Подтвердите пароль")]
     [Compare("Password",ErrorMessage = "Пароль не совпадает")]
     public string PasswordReset { get; set; }
+
 }

@@ -8,57 +8,59 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/login_and_registration.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Message.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Inventory.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Contact.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SportsClub_Bancu.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header class="main-header">
-        <div class="logo">FitStock</div>   
-   
+        <div class="logo">FitStock</div>
+
         <!-- Кнопка-гамбургер для мобильного меню -->
         <div id="hamburger" class="icon">&#9776;</div>
 
         <!-- Основное меню -->
         <nav class="menu">
             <ul>
-                <li><a href="#home">Главная</a></li>
+                <li><a href="/Home/SiteInformation">Главная</a></li>
                 <li><a href="#overview">Обзор</a></li>
                 <li><a href="#services">Услуги</a></li>
-                <li><a href="#clients">Клиенты</a></li>
-                <li><a href="#contact">Контакты</a></li>
+                <li><a href="/Inventory/ListOfInventory">Инвентарь</a></li>
+                <li><a href="/Home/Contact">Контакты</a></li>
             </ul>
         </nav>
 
         <!-- Выпадающее (боковое) меню для мобильной версии -->
         <div id="side-menu" class="side-menu">
             <div>
-				<button class="button" id="side-menu-button-click-to-hide" type="button" name="button">X</button>
+                <button class="button" id="side-menu-button-click-to-hide" type="button" name="button">X</button>
 
                 <ul>
-                    <li><a href="#home">Главная</a></li>
+                    <li><a href="/Home/SiteInformation">Главная</a></li>
                     <li><a href="#overview">Обзор</a></li>
                     <li><a href="#services">Услуги</a></li>
-                    <li><a href="#clients">Клиенты</a></li>
-                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="/Inventory/ListOfInventory">Инвентарь</a></li>
+                    <li><a href="/Home/Contact">Контакты</a></li>
                 </ul>
-              
+
             </div>
 
-             @if (User.Identity.IsAuthenticated)
+            @if (User.Identity.IsAuthenticated)
             {
-                <button class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">Выйти</button>
+                <button id="open-login-side" class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">Выйти</button>
             }
             else
             {
-            <button id="open-login-side">Войти</button>
+                <button id="open-login-side">Войти</button>
             }
-        </div>   
-    
+        </div>
+
 
         <div class="button-header">
             @if (User.Identity.IsAuthenticated)
             {
-                <button class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">Выйти</button>
+                <button id="open-login" class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">Выйти</button>
             }
             else
             {
@@ -68,7 +70,7 @@
 
 
 
-      @*   <div class="button-header">
+        @*   <div class="button-header">
             <button id="open-login">Войти</button>
         </div> *@
 
@@ -80,10 +82,12 @@
     <img class="img-header" src="~/images/fin.jpg" alt="Путешествия" />
 
     @await Html.PartialAsync("_LoginRegistrationPartial")
+    @await Html.PartialAsync("_ConfirmEmailPartial")
 
-    <div class="container">
+    <main class="@ViewData["BodyClass"]">
         @RenderBody()
-    </div>
+    </main>
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
