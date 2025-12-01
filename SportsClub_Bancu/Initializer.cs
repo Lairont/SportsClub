@@ -17,7 +17,8 @@ namespace SportClub_Bancu
             services.AddScoped<IBaseStorage<UserDb>, UserStorage>();
             services.AddScoped<IBaseStorage<InventoryDb>, InventoryStorage>();   //Добавлено
             services.AddScoped<IBaseStorage<OrdersDb>, OrdersStorage>();           //Добавлено
-            services.AddScoped<IBaseStorage<CategoriesDb>, CategoriesStorage>();     //Добавлено
+            services.AddScoped<IBaseStorage<CategoriesDb>, CategoriesStorage>();
+            services.AddScoped<IBaseStorage<PicturesInventoryDb>, PicturesInventoryStorage>();   //Добавлено
         }
 
         public static void InitializeServices(this IServiceCollection services)

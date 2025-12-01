@@ -49,8 +49,18 @@ namespace SportsClub_Bancu.Controllers
             }
 
             var listOfInventoryViewModel = _mapper.Map<List<InventoryViewModel>>(response.Data);
+            foreach(var item in listOfInventoryViewModel)
+            {
+                var Pictur = await _inventoryService.GetPictur(item.Id);
+                if (Pictur.StatusCode != SportClub_Bancu.Domain.Response.StatusCode.NotFound)
+                {
+                    item.PathImg = Pictur.Data.Path;
+                }
 
-            return View(listOfInventoryViewModel);
+            }
+
+                return View(listOfInventoryViewModel);
+
         }
     }
 }

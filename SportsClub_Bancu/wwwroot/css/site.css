@@ -1,4 +1,4 @@
-html {
+﻿html {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
@@ -21,14 +21,6 @@ body {
 }
 
 
-
-.side-menu {
-    display: none !important;
-}
-
-.icon {
-    display: none !important;
-}
 
 /* ---------------- HEADER ---------------- */
 .main-header {
@@ -304,42 +296,6 @@ body {
 }*/
 
 /* ---------------- ADAPTIVE ---------------- */
-@media (max-width: 900px) {
-    .main-header {
-        padding: 0 20px;
-        flex-wrap: wrap;
-        height: auto;
-    }
-
-    .logo {
-        order: 1;
-    }
-
-    .menu {
-        order: 3;
-        width: 100%;
-        justify-content: center;
-        margin: 10px 0 0;
-    }
-
-    .button-header {
-        order: 2;
-        margin-left: auto;
-    }
-
-    .menu ul {
-        gap: 15px;
-    }
-
-    .menu a {
-        font-size: 14px;
-    }
-
-    .img-header {
-        width: 95%;
-        height: auto;
-    }
-}
 
 /*login*/
 #error-messages-singin {

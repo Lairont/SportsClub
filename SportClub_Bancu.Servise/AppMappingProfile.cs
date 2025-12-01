@@ -17,7 +17,7 @@ namespace SportClub_Bancu.Servise
             CreateMap<Inventory, InventoryDb>().ReverseMap();
             CreateMap<RegisterViewModel, ConfirmEmailViewModel>().ReverseMap();
             CreateMap<User, ConfirmEmailViewModel>().ReverseMap();
-
+            CreateMap<PicturesInventory, PicturesInventoryDb>().ReverseMap();
         }
     }
 }

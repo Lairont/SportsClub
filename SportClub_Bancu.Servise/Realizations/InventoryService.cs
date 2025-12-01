@@ -15,8 +15,8 @@ namespace SportClub_Bancu.Servise.Realizations
     public class InventoryService : IInventoryService
     {
         private readonly IBaseStorage<InventoryDb> _inventoryStorage;
-
-        private IMapper _mapper { get; set; }
+        private readonly IBaseStorage<PicturesInventoryDb> _picturesStorage;
+        private readonly IMapper _mapper; 
 
         private InventoryValidator _validationRules { get; set; }
 
@@ -25,9 +25,12 @@ namespace SportClub_Bancu.Servise.Realizations
             cfg.AddProfile<AppMappingProfile>();
         });
 
-        public InventoryService(IBaseStorage<InventoryDb> inventoryStorage)
+        public InventoryService(
+            IBaseStorage<InventoryDb> inventoryStorage,
+            IBaseStorage<PicturesInventoryDb> picturesStorage)
         {
             _inventoryStorage = inventoryStorage;
+            _picturesStorage = picturesStorage;
             _mapper = mapperConfiguration.CreateMapper();
             _validationRules = new InventoryValidator();
         }
@@ -156,7 +159,11 @@ namespace SportClub_Bancu.Servise.Realizations
         {
             try
             {
-                var inventory = await _inventoryStorage.GetAll().FirstOrDefaultAsync(x => x.Id == id);
+
+                var inventory = await _inventoryStorage.GetAll()
+                    .Include(x => x.PicturesInventoryDb) 
+                    .FirstOrDefaultAsync(x => x.Id == id);
+
                 if (inventory == null)
                 {
                     return new BaseResponse<InventoryDb>
@@ -182,19 +189,53 @@ namespace SportClub_Bancu.Servise.Realizations
             }
         }
 
+
+
+
+        public async Task<BaseResponse<PicturesInventory>> GetPictur(Guid Id)
+        {
+            try
+            {
+                var picturesinventory = await _picturesStorage.GetAll().FirstOrDefaultAsync(p => p.InventoryId == Id);
+
+
+                var result = _mapper.Map<PicturesInventory>(picturesinventory);
+
+                if (result == null)
+                {
+                    return new BaseResponse<PicturesInventory>
+                    {
+                        Description = "Найдено 0 элементов",
+                        StatusCode = StatusCode.NotFound
+                    };
+                }
+
+                return new BaseResponse<PicturesInventory>
+                {
+                    Data = result,
+                    StatusCode = StatusCode.OK
+                };
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<PicturesInventory>
+                {
+                    Description = ex.Message,
+                    StatusCode = StatusCode.InternalError
+                };
+            }
+        }
+
         public async Task<BaseResponse<List<Inventory>>> GetAllInventories()
         {
             try
             {
-
                 var inventoriesDb = await _inventoryStorage.GetAll()
-                                                           .OrderBy(p => p.CreatedAt) 
-                                                           .ToListAsync();
-
+                    .Include(x => x.PicturesInventoryDb)
+                    .OrderBy(p => p.CreatedAt)
+                    .ToListAsync();
 
                 var result = _mapper.Map<List<Inventory>>(inventoriesDb);
-
-          
 
                 if (result.Count == 0)
                 {
@@ -216,7 +257,7 @@ namespace SportClub_Bancu.Servise.Realizations
                 return new BaseResponse<List<Inventory>>
                 {
                     Description = ex.Message,
-                    StatusCode = StatusCode.InternalServerError
+                    StatusCode = StatusCode.InternalError
                 };
             }
         }
