@@ -10,10 +10,8 @@ namespace SportClub_Bancu.Servise.Interfaces
 {
     public interface ICategoriesService
     {
-        Task<BaseResponse<CategoriesDb>> CreateCategory(Categories model);
-        Task<BaseResponse<CategoriesDb>> UpdateCategory(Guid id, Categories model);
-        Task<BaseResponse<bool>> DeleteCategory(Guid id);
-        Task<BaseResponse<CategoriesDb>> GetCategoryById(Guid id);
-        Task<BaseResponse<IEnumerable<CategoriesDb>>> GetAllCategories();
+
+        BaseResponse<List<Categories>> GetAllCategories();
+
     }
 }

@@ -1,14 +1,16 @@
 ﻿using AutoMapper;
+using FluentValidation;
+using Microsoft.EntityFrameworkCore;
+using SporClub_Bancu.DAL;
+using SportClub_Bancu.Domain.Filter;
 using SportClub_Bancu.Domain.ModelsDb;
+using SportClub_Bancu.Domain.Response;
+using SportClub_Bancu.Domain.Validators;
 using SportClub_Bancu.Servise.Interfaces;
+using SportsClub_Bancu.Domain.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using SporClub_Bancu.DAL;
-using SportClub_Bancu.Domain.Response;
-using Microsoft.EntityFrameworkCore;
-using FluentValidation;
-using SportClub_Bancu.Domain.Validators;
 
 namespace SportClub_Bancu.Servise.Realizations
 {
@@ -159,6 +161,7 @@ namespace SportClub_Bancu.Servise.Realizations
         {
             try
             {
+                
 
                 var inventory = await _inventoryStorage.GetAll()
                     .Include(x => x.PicturesInventoryDb) 
@@ -226,8 +229,10 @@ namespace SportClub_Bancu.Servise.Realizations
             }
         }
 
-        public async Task<BaseResponse<List<Inventory>>> GetAllInventories()
+        public async Task<BaseResponse<List<Inventory>>> GetAllInventories(Guid IdInventory)
         {
+
+
             try
             {
                 var inventoriesDb = await _inventoryStorage.GetAll()
@@ -258,6 +263,52 @@ namespace SportClub_Bancu.Servise.Realizations
                 {
                     Description = ex.Message,
                     StatusCode = StatusCode.InternalError
+                };
+            }
+        }
+
+
+        public BaseResponse<List<Inventory>> GetInventoryByFilter(InventoryFilter filter)
+        {
+            try
+            {
+                // Получаем все данные (как у тебя и было)
+                var inventoryList = GetAllInventories(filter.IdInventory).Result.Data;
+
+                if (filter != null && inventoryList != null)
+                {
+                    // 1. Фильтрация по Цене (твоя старая логика)
+                    if (filter.PriceMax != 500000 || filter.PriceMin != 0)
+                    {
+                        inventoryList = inventoryList
+                            .Where(f => f.Price <= filter.PriceMax && f.Price >= filter.PriceMin)
+                            .ToList();
+                    }
+
+                    // 2. Фильтрация по Категориям (НОВАЯ ЛОГИКА)
+                    // Проверяем, выбрал ли пользователь хоть одну категорию
+                    if (filter.CategoryIds != null && filter.CategoryIds.Any())
+                    {
+                        // Оставляем только те товары, чей CategoryId есть в списке выбранных
+                        inventoryList = inventoryList
+                            .Where(item => filter.CategoryIds.Contains(item.CategoryId))
+                            .ToList();
+                    }
+                }
+
+                return new BaseResponse<List<Inventory>>
+                {
+                    Data = inventoryList,
+                    Description = "Отфильтрованные данные",
+                    StatusCode = StatusCode.OK
+                };
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<List<Inventory>>
+                {
+                    Description = ex.Message,
+                    StatusCode = StatusCode.InternalServerError
                 };
             }
         }

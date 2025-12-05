@@ -1,0 +1,256 @@
+﻿/* ================================================= */
+/* 0. СТИЛИ ДЛЯ РАЗМЕТКИ ДВУХ КОЛОНОК */
+/* ================================================= */
+.inventory-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding-bottom: 50px; /* Добавил для красоты */
+}
+
+.filter-sidebar {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+/* Новый контейнер для сортировки и сетки товаров */
+.products-content {
+    flex-grow: 1;
+    min-width: 0;
+}
+
+/* ================================================= */
+/* 1. ОБЩИЕ СТИЛИ КОНТЕЙНЕРА ФИЛЬТРА */
+/* ================================================= */
+
+.filter {
+    background-color: #ffffff;
+    padding: 25px; /* Увеличил отступы */
+    border-radius: 12px; /* Более мягкие углы */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Глубокая, но мягкая тень */
+    border: 1px solid #f0f0f0; /* Легкая обводка */
+    margin-top: 20px;
+}
+
+    .filter h3 {
+        text-align: left; /* Сделал выравнивание по левому краю */
+        color: #2c3e50; /* Темно-синий, более современный цвет */
+        margin-bottom: 20px; /* Немного уменьшил отступ */
+        font-size: 1.4em; /* Чуть меньше */
+        font-weight: 700; /* Очень жирный */
+        border-bottom: 1px solid #e0e0e0; /* Более тонкий и светлый разделитель */
+        padding-bottom: 12px; /* Чуть больше отступ */
+    }
+
+.title {
+    display: block;
+    font-weight: 600; /* Чуть менее жирный */
+    font-size: 14px; /* Чуть меньше */
+    text-transform: uppercase; /* Верхний регистр для акцента */
+    letter-spacing: 0.5px;
+    color: #95a5a6; /* Серо-голубой цвет */
+    margin-bottom: 12px;
+    margin-top: 20px; /* Отступ между секциями */
+}
+
+/* ================================================= */
+/* 2. СТИЛИ СОРТИРОВКИ (.sorts) */
+/* ================================================= */
+.sorts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Разносим текст и селект */
+    gap: 15px;
+    padding: 18px 25px; /* Увеличил отступы */
+    background-color: #f7f9fc; /* Очень светлый фон */
+    border-radius: 10px; /* Чуть более скругленный */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03); /* Легкая тень */
+    margin-bottom: 30px;
+}
+
+    .sorts label {
+        font-size: 15px;
+        color: #555;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    .sorts select {
+        padding: 10px 15px; /* Больше отступов */
+        font-size: 14px;
+        border: 1px solid #e0e0e0; /* Светлая обводка */
+        border-radius: 8px;
+        background-color: #ffffff;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        color: #333;
+        font-weight: 500;
+        min-width: 150px;
+    }
+
+        .sorts select:focus {
+            border-color: #ff8c00; /* Более темный оранжевый */
+            box-shadow: 0 0 0 3px rgba(255, 140, 0, 0.15); /* Эффект свечения */
+            outline: none;
+        }
+
+/* ================================================= */
+/* 3. СТИЛИ ПОЛЗУНКОВ ЦЕНЫ (.price-filter) */
+/* ================================================= */
+.price-filter {
+    padding: 10px 0;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #f5f5f5; /* Разделитель секций */
+    padding-bottom: 25px;
+}
+
+    .price-filter label {
+        display: block;
+        margin-top: 10px;
+        font-size: 13px; /* Меньший шрифт */
+        color: #666; /* Более мягкий цвет */
+    }
+
+    /* Стили для самого input[type="range"] */
+    .price-filter input[type="range"] {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 8px; /* Чуть толще трек */
+        background: #eee;
+        border-radius: 4px;
+        outline: none;
+        margin: 10px 0 15px 0;
+    }
+
+        /* Стили для бегунка */
+        .price-filter input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px; /* Чуть больше */
+            height: 20px;
+            background: #ffa500;
+            border: 3px solid #ffffff; /* Белая обводка */
+            border-radius: 50%;
+            cursor: grab;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+            transition: transform 0.1s;
+        }
+
+            .price-filter input[type="range"]::-webkit-slider-thumb:active {
+                transform: scale(1.1);
+                cursor: grabbing;
+            }
+
+    /* Стили для отображения текущих значений */
+    .price-filter > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+        background: #fffbf2; /* Очень светлый оранжевый фон */
+        border: 1px solid #ffeebb; /* Легкая обводка */
+        border-radius: 8px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+#price-values {
+    font-weight: 700;
+    color: #e65100; /* Более глубокий оранжевый */
+    font-size: 15px;
+}
+
+#min-label, #max-label {
+    display: inline-block;
+    font-weight: 600;
+    color: #aaa;
+    font-size: 12px;
+}
+
+
+/* ================================================= */
+/* 4. СТИЛИ КАТЕГОРИЙ (ТЕГОВ) */
+/* ================================================= */
+.category-filter {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f5f5f5; /* Разделитель секций */
+    padding-bottom: 25px;
+}
+
+.category-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Увеличил отступ между тегами */
+}
+
+/* Скрываем сам input (чекбокс) */
+.btn-checkbox {
+    display: none;
+}
+
+    /* Стиль кнопки (label) в неактивном состоянии */
+    .btn-checkbox + label {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #f7f9fc; /* Светлый фон */
+        border: 1px solid transparent; /* Убрал видимую обводку */
+        border-radius: 18px; /* Сделал более скругленными */
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        color: #555;
+        transition: all 0.2s ease;
+        user-select: none;
+    }
+
+        /* Эффект при наведении */
+        .btn-checkbox + label:hover {
+            background-color: #eef2f6;
+            color: #333;
+        }
+
+    /* Стиль кнопки в АКТИВНОМ (выбранном) состоянии */
+    .btn-checkbox:checked + label {
+        /* Использование градиента для современного вида */
+        background: linear-gradient(135deg, #ffa500 0%, #ff8c00 100%);
+        color: white;
+        border-color: transparent;
+        box-shadow: 0 4px 10px rgba(255, 140, 0, 0.3); /* Цветная тень (Glow) */
+    }
+
+
+/* ================================================= */
+/* 5. КНОПКА ПРИМЕНИТЬ */
+/* ================================================= */
+
+.filter-button {
+    padding-top: 20px; /* Увеличил отступ */
+    border-top: 1px solid #f5f5f5;
+}
+
+    .filter-button button {
+        padding: 14px 20px; /* Больше отступов */
+        background: linear-gradient(to right, #ffa500, #ff8c00); /* Сочный градиент */
+        color: white;
+        border: none;
+        border-radius: 10px; /* Более скругленная */
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase; /* Верхний регистр */
+        width: 100%;
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* Плавный переход */
+        box-shadow: 0 4px 6px rgba(255, 140, 0, 0.2);
+    }
+
+        .filter-button button:hover {
+            box-shadow: 0 7px 14px rgba(255, 140, 0, 0.3);
+            transform: translateY(-2px); /* Легкий подъем */
+        }
+
+        .filter-button button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(255, 140, 0, 0.2);
+        }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SporClub_Bancu.DAL;
 using SportClub_Bancu.Domain.ModelsDb;
+using SportClub_Bancu.Domain.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,10 @@ namespace SportClub_Bancu.DAL.Storage
             _db.Remove(item);
             await _db.SaveChangesAsync();
         }
+
+
+  
+
 
         public async Task<CategoriesDb> Get(Guid id)
         {

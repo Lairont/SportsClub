@@ -1,4 +1,5 @@
-﻿using SportClub_Bancu.Domain.ModelsDb;
+﻿using SportClub_Bancu.Domain.Filter;
+using SportClub_Bancu.Domain.ModelsDb;
 using SportClub_Bancu.Domain.Response;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,8 @@ namespace SportClub_Bancu.Servise.Interfaces
         Task<BaseResponse<InventoryDb>> UpdateInventory(Guid id, Inventory model);
         Task<BaseResponse<bool>> DeleteInventory(Guid id);
         Task<BaseResponse<InventoryDb>> GetInventoryById(Guid id);
-        Task<BaseResponse<List<Inventory>>> GetAllInventories();
+        Task<BaseResponse<List<Inventory>>> GetAllInventories(Guid IdInventory);
+        BaseResponse<List<Inventory>> GetInventoryByFilter(InventoryFilter filter);
         Task<BaseResponse<PicturesInventory>> GetPictur(Guid id);
 
     }

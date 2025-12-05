@@ -1,4 +1,6 @@
-﻿ namespace SportsClub_Bancu.Domain.ViewModels
+﻿using SportClub_Bancu.Domain.ViewModels;
+
+namespace SportsClub_Bancu.Domain.ViewModels
 {
     public class InventoryViewModel
     {
@@ -10,5 +12,9 @@
         public decimal Price { get; set; }
 
         public string? PathImg { get; set; }
+
+        public string CategoryName { get; set; }
+
+
     }
 }

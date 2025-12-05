@@ -270,7 +270,7 @@ public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailViewModel m
         }
 
 
-        public IActionResult Contact() // <--- Добавьте этот метод
+        public IActionResult Contact() 
         {
             return View();
         }

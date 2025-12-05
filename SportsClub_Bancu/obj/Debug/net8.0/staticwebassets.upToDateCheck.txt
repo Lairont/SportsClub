@@ -1,4 +1,5 @@
 wwwroot\css\Contact.css
+wwwroot\css\Filter.css
 wwwroot\css\Inventory.css
 wwwroot\css\login_and_registration.css
 wwwroot\css\media_style.css
@@ -19,6 +20,7 @@ wwwroot\images\strohovka.jpg
 wwwroot\images\telefon.png
 wwwroot\images\telegram.png
 wwwroot\images\vk.png
+wwwroot\js\Filter.js
 wwwroot\js\home_script.js
 wwwroot\js\login_and_registration_script.js
 wwwroot\js\shared_script.js
