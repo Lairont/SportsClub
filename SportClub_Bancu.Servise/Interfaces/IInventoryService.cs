@@ -17,9 +17,15 @@ namespace SportClub_Bancu.Servise.Interfaces
         Task<BaseResponse<InventoryDb>> UpdateInventory(Guid id, Inventory model);
         Task<BaseResponse<bool>> DeleteInventory(Guid id);
         Task<BaseResponse<InventoryDb>> GetInventoryById(Guid id);
-        Task<BaseResponse<List<Inventory>>> GetAllInventories(Guid IdInventory);
+        Task<BaseResponse<List<Inventory>>> GetAllInventories();
+        Task<BaseResponse<List<Inventory>>> GetAllInventoriesById(Guid IdInventory);
+
         BaseResponse<List<Inventory>> GetInventoryByFilter(InventoryFilter filter);
         Task<BaseResponse<PicturesInventory>> GetPictur(Guid id);
+
+
+        Task<BaseResponse<Inventory>> GetInvBId(Guid id);
+        Task<BaseResponse<PicturesInventory>> GetPicturByIdInventory(Guid id);
 
     }
 }

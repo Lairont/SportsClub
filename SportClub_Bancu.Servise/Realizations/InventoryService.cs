@@ -229,7 +229,7 @@ namespace SportClub_Bancu.Servise.Realizations
             }
         }
 
-        public async Task<BaseResponse<List<Inventory>>> GetAllInventories(Guid IdInventory)
+        public async Task<BaseResponse<List<Inventory>>> GetAllInventories()
         {
 
 
@@ -268,16 +268,56 @@ namespace SportClub_Bancu.Servise.Realizations
         }
 
 
+        public async Task<BaseResponse<List<Inventory>>> GetAllInventoriesById(Guid IdInventory)
+        {
+
+
+            try
+            {
+                var inventoriesDb = await _inventoryStorage.GetAll()
+                    .Include(x => x.PicturesInventoryDb)
+                    .OrderBy(p => p.CreatedAt)
+                    .ToListAsync();
+
+                var result = _mapper.Map<List<Inventory>>(inventoriesDb);
+
+                if (result.Count == 0)
+                {
+                    return new BaseResponse<List<Inventory>>
+                    {
+                        Description = "Найдено 0 элементов",
+                        StatusCode = StatusCode.NotFound
+                    };
+                }
+
+                return new BaseResponse<List<Inventory>>
+                {
+                    Data = result,
+                    StatusCode = StatusCode.OK
+                };
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<List<Inventory>>
+                {
+                    Description = ex.Message,
+                    StatusCode = StatusCode.InternalError
+                };
+            }
+        }
+
+
+
         public BaseResponse<List<Inventory>> GetInventoryByFilter(InventoryFilter filter)
         {
             try
             {
-                // Получаем все данные (как у тебя и было)
-                var inventoryList = GetAllInventories(filter.IdInventory).Result.Data;
+     
+                var inventoryList = GetAllInventoriesById(filter.IdInventory).Result.Data;
 
                 if (filter != null && inventoryList != null)
                 {
-                    // 1. Фильтрация по Цене (твоя старая логика)
+         
                     if (filter.PriceMax != 500000 || filter.PriceMin != 0)
                     {
                         inventoryList = inventoryList
@@ -285,11 +325,10 @@ namespace SportClub_Bancu.Servise.Realizations
                             .ToList();
                     }
 
-                    // 2. Фильтрация по Категориям (НОВАЯ ЛОГИКА)
-                    // Проверяем, выбрал ли пользователь хоть одну категорию
+       
                     if (filter.CategoryIds != null && filter.CategoryIds.Any())
                     {
-                        // Оставляем только те товары, чей CategoryId есть в списке выбранных
+        
                         inventoryList = inventoryList
                             .Where(item => filter.CategoryIds.Contains(item.CategoryId))
                             .ToList();
@@ -306,6 +345,76 @@ namespace SportClub_Bancu.Servise.Realizations
             catch (Exception ex)
             {
                 return new BaseResponse<List<Inventory>>
+                {
+                    Description = ex.Message,
+                    StatusCode = StatusCode.InternalServerError
+                };
+            }
+        }
+
+
+
+
+        public async Task<BaseResponse<Inventory>> GetInvBId(Guid id)
+        {
+            try
+            {
+                var inventoryDb = await _inventoryStorage.Get(id);
+                var result = _mapper.Map<Inventory>(inventoryDb);
+
+                if (result == null)
+                {
+                    return new BaseResponse<Inventory>()
+                    {
+                        Description = "Инвентарь не найден",
+                        StatusCode = StatusCode.NotFound
+                    };
+                }
+
+                return new BaseResponse<Inventory>()
+                {
+                    Data = result,
+                    StatusCode = StatusCode.OK
+                };
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<Inventory>()
+                {
+                    Description = ex.Message,
+                    StatusCode = StatusCode.InternalServerError
+                };
+            }
+        }
+
+
+        public async Task<BaseResponse<PicturesInventory>> GetPicturByIdInventory(Guid id)
+        {
+            try
+            {
+                var picturesOb = await _picturesStorage.GetAll()
+                    .FirstOrDefaultAsync(p => p.InventoryId == id);
+
+                var result = _mapper.Map<PicturesInventory>(picturesOb);
+
+                if (result == null)
+                {
+                    return new BaseResponse<PicturesInventory>()
+                    {
+                        Description = "Изображения не найдены",
+                        StatusCode = StatusCode.NotFound
+                    };
+                }
+
+                return new BaseResponse<PicturesInventory>()
+                {
+                    Data = result,
+                    StatusCode = StatusCode.OK
+                };
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<PicturesInventory>()
                 {
                     Description = ex.Message,
                     StatusCode = StatusCode.InternalServerError

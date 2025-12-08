@@ -1,0 +1,40 @@
+﻿@model SportClub_Bancu.Domain.ViewModels.InventoryPageViewModel
+@using SportClub_Bancu.Domain.Helpers
+
+@{
+    Layout = "_Layout";
+    ViewData["title"] = "Инвентарь";
+}
+
+<div class="inventory-details-container">
+    <div class="item-header">
+        <h1>@Model.Name</h1> 
+    </div>
+
+    <div class="item-content-wrapper">
+        <div class="item-media-section">
+            <img id="main-image" src="@Model.PathImg" alt="@Model.Name" class="item-main-image">
+            @*
+            <div class="thumbnail-list">
+                @foreach (var pictures in Model.PicturesInventory) 
+                {
+                    <img src="@pictures.PathImg" alt="Thumbnail" class="item-thumbnail" onclick="changeImage(this)">
+                }
+        </div>  *@
+
+            <script>
+                function changeImage(thumbnail) {
+                    const mainimage = document.getElementById("main-image");
+                    mainimage.src = thumbnail.src;
+                }
+            </script>
+        </div>
+
+        <div class="item-info-panel">
+            <h1>@Model.Name</h1>
+            <p><strong>Описание:</strong> @Model.Notes</p>
+            <p><strong>Цена:</strong> @Model.Price ₽</p>
+            <p><strong>Количество в наличии:</strong> @Model.Count</p> 
+        </div>
+    </div>
+</div>

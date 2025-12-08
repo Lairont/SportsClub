@@ -54,6 +54,54 @@
     margin-top: 20px; /* Отступ между секциями */
 }
 
+
+
+
+
+/* ================================================= */
+/* 2. Поиск */
+/* ================================================= */
+
+
+
+.search {
+    /* 1. Центрирование блока */
+    max-width: 600px;
+    width: 90%;
+    margin: 30px auto; /* Центрирование по горизонтали */
+    /* 2. Стиль контейнера */
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+    .search:focus-within {
+        border-color: #c78e257d; /* Оранжевая обводка при фокусе */
+    }
+
+    /* Стилизация поля ввода */
+    .search .input {
+        flex-grow: 1; /* Поле ввода занимает максимум места */
+        padding: 0;
+    }
+
+        .search .input input[type="text"] {
+            width: 100%;
+            border: none;
+            padding: 15px 20px;
+            font-size: 16px;
+            outline: none;
+            background: transparent;
+        }
+
+
+.hide {
+    display: none;
+}
 /* ================================================= */
 /* 2. СТИЛИ СОРТИРОВКИ (.sorts) */
 /* ================================================= */

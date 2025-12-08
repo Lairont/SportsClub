@@ -1,0 +1,104 @@
+﻿.inventory-details-container {
+    /* Главный контейнер */
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    /* Уменьшил тень для более современного вида */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Заголовок инвентаря */
+.item-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.item-category {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Контейнер для медиа и информации (Flexbox для двух колонок) */
+.item-content-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Адаптивность для маленьких экранов */
+}
+
+/* Секция изображений */
+.item-media-section {
+    flex: 1; /* Занимает место */
+    min-width: 300px;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Основное изображение */
+.item-main-image {
+    width: 100%;
+    max-width: 100%; /* Убрал ограничение 60% для лучшего использования пространства */
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Контейнер миниатюр */
+.thumbnail-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Миниатюры */
+.item-thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s;
+    border: 2px solid transparent;
+}
+
+    .item-thumbnail:hover {
+        transform: scale(1.05);
+        /* Акцентный цвет для спортивной темы */
+        border: 2px solid #ffa500;
+    }
+
+/* Информационная панель */
+.item-info-panel {
+    flex: 2; /* Занимает больше места, чем медиа-секция */
+    padding: 20px 0;
+}
+
+    .item-info-panel h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .item-info-panel p {
+        margin: 15px 0;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #444;
+    }
+
+    .item-info-panel strong {
+        color: #333;
+    }
+
+/* Стилизация звезд (если используются для рейтинга/состояния) */
+.item-rating-star {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}

@@ -15,10 +15,11 @@ namespace SportClub_Bancu
         public static void InitializeRepositories(this IServiceCollection services)
         {
             services.AddScoped<IBaseStorage<UserDb>, UserStorage>();
-            services.AddScoped<IBaseStorage<InventoryDb>, InventoryStorage>();   //Добавлено
-            services.AddScoped<IBaseStorage<OrdersDb>, OrdersStorage>();           //Добавлено
+            services.AddScoped<IBaseStorage<InventoryDb>, InventoryStorage>();   
+            services.AddScoped<IBaseStorage<OrdersDb>, OrdersStorage>();          
             services.AddScoped<IBaseStorage<CategoriesDb>, CategoriesStorage>();
-            services.AddScoped<IBaseStorage<PicturesInventoryDb>, PicturesInventoryStorage>();   //Добавлено
+            services.AddScoped<IBaseStorage<PicturesInventoryDb>, PicturesInventoryStorage>();
+
         }
 
         public static void InitializeServices(this IServiceCollection services)

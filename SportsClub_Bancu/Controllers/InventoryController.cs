@@ -44,6 +44,15 @@ namespace SportsClub_Bancu.Controllers
         {
             var result = _inventoryService.GetInventoryByFilter(filter);
             var filteredInventory = _mapper.Map<List<InventoryViewModel>>(result.Data);
+            foreach (var item in filteredInventory)
+            {
+                var Pictur = await _inventoryService.GetPictur(item.Id);
+                if (Pictur.StatusCode != SportClub_Bancu.Domain.Response.StatusCode.NotFound)
+                {
+                    item.PathImg = Pictur.Data.Path;
+                }
+
+            }
             return Json(filteredInventory);
         }
 
@@ -52,7 +61,7 @@ namespace SportsClub_Bancu.Controllers
         public async Task<IActionResult> ListOfInventory()
         {
 
-            var response = await _inventoryService.GetAllInventories(Guid.Empty);
+            var response = await _inventoryService.GetAllInventories();
             if (response.StatusCode == SportClub_Bancu.Domain.Response.StatusCode.NotFound)
             {
 
@@ -82,6 +91,33 @@ namespace SportsClub_Bancu.Controllers
             };
                 return View(inventoryListViewModel);
 
+        }
+
+        //public async Task<IActionResult> InventoryPage(Guid id)
+        //{
+        //    var resultInventory = await _inventoryService.GetInvBId(id);
+        //    var resultPictures = await _inventoryService.GetInventoryById(id);
+
+        //    InventoryPageViewModel inventory = _mapper.Map<InventoryPageViewModel>(resultInventory.Data);
+        //     inventory.PathImg = _mapper.Map<PicturesInventoryViewModel>(resultPictures.Data);
+
+        //    return View(inventory);
+        //}
+
+        public async Task<IActionResult> PageOfInventory(Guid id)
+        {
+            var resultInventory = await _inventoryService.GetInvBId(id);
+            var resultPictures = await _inventoryService.GetPicturByIdInventory(id);
+
+            InventoryPageViewModel inventory = _mapper.Map<InventoryPageViewModel>(resultInventory.Data);
+
+
+            var pictureViewModel = _mapper.Map<PicturesInventoryViewModel>(resultPictures.Data);
+
+
+            inventory.PathImg = pictureViewModel.Path;
+
+            return View(inventory);
         }
     }
 }

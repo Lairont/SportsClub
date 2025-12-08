@@ -4,6 +4,7 @@ wwwroot\css\Inventory.css
 wwwroot\css\login_and_registration.css
 wwwroot\css\media_style.css
 wwwroot\css\Message.css
+wwwroot\css\PageInventory.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\cont.png
@@ -15,6 +16,7 @@ wwwroot\images\google-image.png
 wwwroot\images\instagram.png
 wwwroot\images\mesto.png
 wwwroot\images\poderka.jpg
+wwwroot\images\poisc.png
 wwwroot\images\postrane.jpg
 wwwroot\images\strohovka.jpg
 wwwroot\images\telefon.png
