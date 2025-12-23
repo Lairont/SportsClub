@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MimeKit;
 using SporClub_Bancu.DAL;
+using SportClub_Bancu.Domain.Enum;
 using SportClub_Bancu.Domain.Helpers;
 using SportClub_Bancu.Domain.ModelsDb;
 using SportClub_Bancu.Domain.Response;
@@ -64,14 +65,18 @@ namespace SportClub_Bancu.Servise.Realizations
                         Description = "Неверный пароль или почта"
                     };
                 }
+                var userModel = _mapper.Map<User>(existingUser);
 
                 var claims = new List<Claim>
-        {
-            new Claim(ClaimsIdentity.DefaultNameClaimType, existingUser.Login ?? string.Empty),
-            new Claim(ClaimTypes.Email, existingUser.Email ?? string.Empty),
-            new Claim(ClaimTypes.Role, existingUser.Role.ToString())
-        };
-                var identity = new ClaimsIdentity(claims, "ApplicationCookie", ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
+                 {
+                  new Claim(ClaimTypes.Name, existingUser.Login ?? string.Empty),
+                  new Claim(ClaimTypes.Email, existingUser.Email ?? string.Empty),
+                 // Используем строго ClaimTypes.Role
+                  new Claim(ClaimTypes.Role, existingUser.Role.ToString())
+                   };
+
+                // ВАЖНО: Указываем ClaimTypes.Name и ClaimTypes.Role в конструкторе
+                var identity = AuthenticateUserHelper.Authenticate(userModel);
 
                 return new BaseResponse<ClaimsIdentity>
                 {
@@ -97,53 +102,6 @@ namespace SportClub_Bancu.Servise.Realizations
                 };
             }
         }
-
-        //public async Task<BaseResponse<ClaimsIdentity>> Login(User model)
-        //{
-        //    try
-        //    {
-        //        await _validationRules.ValidateAndThrowAsync(model);
-        //        var userdb = _mapper.Map<UserDb>(model);
-        //        var existingUser = await _userStorage.GetAll().FirstOrDefaultAsync(x => x.Email == userdb.Email);
-        //        if (existingUser == null)
-        //        {
-        //            return new BaseResponse<ClaimsIdentity>
-        //            {
-        //                Description = "Пользователь не найден"
-        //            };
-        //        }
-        //        if (existingUser.Password != HashPasswordHelper.HashPassword(model.Password))
-        //        {
-        //            return new BaseResponse<ClaimsIdentity>
-        //            {
-        //                Description = "Неверный пароль или почта"
-        //            };
-        //        }
-        //        return new BaseResponse<ClaimsIdentity>
-        //        {
-        //            Data = _mapper.Map<ClaimsIdentity>(existingUser),
-        //            StatusCode = StatusCode.OK
-        //        };
-        //    }
-        //    catch (ValidationException ex)
-        //    {
-        //        var errorMessages = string.Join("; ", ex.Errors.Select(e => e.ErrorMessage));
-        //        return new BaseResponse<ClaimsIdentity>
-        //        {
-        //            Description = errorMessages,
-        //            StatusCode = StatusCode.BadRequest
-        //        };
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return new BaseResponse<ClaimsIdentity>
-        //        {
-        //            Description = ex.Message,
-        //            StatusCode = StatusCode.InternalError
-        //        };
-        //    }
-        //}
-
         public async Task<BaseResponse<string>> Register(User model)
         {
             try
@@ -281,7 +239,7 @@ namespace SportClub_Bancu.Servise.Realizations
 
                 await _userStorage.Add(userDb);
 
-
+                model.Role = UserRole.User;
                 var authResult = AuthenticateUserHelper.Authenticate(model);
 
 
@@ -310,14 +268,18 @@ namespace SportClub_Bancu.Servise.Realizations
         {
             try
             {
-                var userDb = new UserDb();
-                if (await _userStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email) == null)
+                // 1. Сначала ищем пользователя в базе и сохраняем его в переменную
+                var existingUserDb = await _userStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email);
+
+                if (existingUserDb == null)
                 {
+                    // Регистрация нового пользователя
                     model.Password = "google";
                     model.CreatedAt = DateTime.Now;
+                    model.Role = UserRole.User; // Новым даем роль User
 
-                    userDb = _mapper.Map<UserDb>(model);
-                    await _userStorage.Add(userDb);
+                    var newUserDb = _mapper.Map<UserDb>(model);
+                    await _userStorage.Add(newUserDb);
 
                     var resultRegister = AuthenticateUserHelper.Authenticate(model);
                     return new BaseResponse<ClaimsIdentity>()
@@ -328,7 +290,12 @@ namespace SportClub_Bancu.Servise.Realizations
                     };
                 }
 
-                var resultLogin = AuthenticateUserHelper.Authenticate(model);
+                // 2. Если пользователь найден (existingUserDb НЕ null)
+                // Мапим именно ТЕ данные, которые достали из базы (там лежит твоя "тройка" админа)
+                var fullUserModel = _mapper.Map<User>(existingUserDb);
+
+                var resultLogin = AuthenticateUserHelper.Authenticate(fullUserModel);
+
                 return new BaseResponse<ClaimsIdentity>()
                 {
                     Data = resultLogin,

@@ -6,6 +6,12 @@
     ViewData["title"] = "Инвентарь";
 }
 
+
+<style>
+    .img-header {
+        display: none;
+    }
+</style>
 <div class="inventory-details-container">
     <div class="item-header">
         <h1>@Model.Name</h1> 
@@ -14,13 +20,6 @@
     <div class="item-content-wrapper">
         <div class="item-media-section">
             <img id="main-image" src="@Model.PathImg" alt="@Model.Name" class="item-main-image">
-            @*
-            <div class="thumbnail-list">
-                @foreach (var pictures in Model.PicturesInventory) 
-                {
-                    <img src="@pictures.PathImg" alt="Thumbnail" class="item-thumbnail" onclick="changeImage(this)">
-                }
-        </div>  *@
 
             <script>
                 function changeImage(thumbnail) {
@@ -35,6 +34,113 @@
             <p><strong>Описание:</strong> @Model.Notes</p>
             <p><strong>Цена:</strong> @Model.Price ₽</p>
             <p><strong>Количество в наличии:</strong> @Model.Count</p> 
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <form action="/Home/AddToCart" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+
+                    <button type="submit" class="btn-buy-modern">
+                        Добавить в корзину
+                    </button>
+                </form>
+            }
+
+            <style>
+
+                .btn-buy-modern {
+                    background: linear-gradient(135deg, #28a745 0%, #218838 100%);
+                    color: white;
+                    padding: 14px 30px;
+                    border: none;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    margin-top: 20px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    transition: all 0.3s ease;
+                    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+                }
+
+                    .btn-buy-modern:hover {
+                        background: linear-gradient(135deg, #218838 0%, #1e7e34 100%);
+                        transform: translateY(-2px);
+                        box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+                    }
+
+                    .btn-buy-modern:active {
+                        transform: translateY(0);
+                        box-shadow: 0 2px 10px rgba(40, 167, 69, 0.2);
+                    }
+
+                    .btn-buy-modern .icon {
+                        font-size: 1.2em;
+                    }
+            </style>
+
+
         </div>
+
+ 
+
+
     </div>
 </div>
+
+<footer>
+    <div class="footer-left">
+        <h2>FitStock</h2>
+        <p>
+            Наша система помогает спортивным клубам и секциям эффективно управлять инвентарём и оборудованием.
+            Вы сможете легко отслеживать состояние, местоположение и использование всех спортивных принадлежностей,
+            планировать выдачу и возврат, а также оптимизировать закупки, экономя время и ресурсы клуба.
+        </p>
+        <div class="footer-TravelAgency">
+            &copy; 2025 FitStock Bancu
+        </div>
+    </div>
+
+    <div class="contact-grid">
+
+        <!-- 1. Email -->
+        <a href="mailto:TTiP@mail.ru" class="contact-card">
+
+            <img class="card-icon" src="~/images/email.png" alt="Email Icon" />
+            <h2>Email</h2>
+            <p>TTiP@mail.ru</p>
+        </a>
+
+        <!-- 2. Телефон -->
+        <a href="tel:+37377777777" class="contact-card">
+            <img class="card-icon" src="~/images/telefon.png" alt="Phone Icon" />
+            <h2>Телефон</h2>
+            <p>+ (373) 777-77-777</p>
+        </a>
+
+        <!-- 3. Адрес -->
+        <div class="contact-card">
+            <img class="card-icon" src="~/images/mesto.png" alt="Address Icon" />
+            <h2>Адрес</h2>
+            <p>Тираспольский техникум информатики и права</p>
+        </div>
+    </div>
+
+    <!-- НОВЫЙ БЛОК: Социальные сети -->
+    <div class="social-media-container">
+        <h3>Мы в социальных сетях</h3>
+        <div class="social-icons-wrapper">
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/telegram.png" alt="Telegram Icon" />
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/vk.png" alt="VKontakte Icon" />
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/instagram.png" alt="Instagram Icon" />
+            </a>
+        </div>
+    </div>
+</footer>

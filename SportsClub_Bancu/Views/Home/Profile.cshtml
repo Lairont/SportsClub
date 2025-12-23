@@ -1,0 +1,133 @@
+﻿@using System.Security.Claims
+@using Microsoft.AspNetCore.Authentication
+@model SportClub_Bancu.Domain.ModelsDb.UserDb
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Профиль";
+
+    // Данные берем из Claims (из сессии)
+    var userName = User.FindFirst(ClaimTypes.Name)?.Value ?? "Без имени";
+    var email = User.FindFirst(ClaimTypes.Email)?.Value ?? "Email не указан";
+    var avatar = User.FindFirst("local_pic")?.Value;
+    if (string.IsNullOrEmpty(avatar)) avatar = "/images/default-avatar.png";
+}
+
+<style>
+    .img-header {
+        display: none;
+    }
+
+    .profile-field small {
+        color: #6c757d;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .save-profile-btn {
+        margin-top: 20px;
+        cursor: pointer;
+    }
+</style>
+
+<section class="profile-section">
+    <form asp-action="UpdateProfile" asp-controller="Home" method="post" enctype="multipart/form-data" class="profile-card">
+
+        <div class="profile-avatar">
+            <img id="avatar-preview" src="@avatar" alt="Аватар пользователя" />
+
+            <label for="avatar-input" class="change-avatar-btn" style="cursor:pointer; display: inline-block; text-align: center;">
+                Изменить аватар
+            </label>
+            <input type="file" id="avatar-input" name="avatarFile" style="display:none;" accept="image/*" onchange="previewImage(this)" />
+        </div>
+
+        <div class="profile-info">
+            <div class="profile-field">
+                <label>Имя (Логин)</label>
+                <input type="text" name="userName" value="@userName" required />
+            </div>
+
+            <div class="profile-field">
+                <label>Email</label>
+                <input type="email" value="@email" disabled style="background: #eee;" />
+            </div>
+
+            <button type="submit" class="save-profile-btn">Сохранить изменения</button>
+        </div>
+    </form>
+</section>
+
+<script>
+    // Предпросмотр выбранного изображения
+    function previewImage(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                document.getElementById('avatar-preview').src = e.target.result;
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
+
+
+
+
+<footer>
+    <div class="footer-left">
+        <!-- Заголовок для FitStock, можно использовать для стилизации логотипа/названия -->
+        <h2>FitStock</h2>
+        <p>
+            Наша система помогает спортивным клубам и секциям эффективно управлять инвентарём и оборудованием.
+            Вы сможете легко отслеживать состояние, местоположение и использование всех спортивных принадлежностей,
+            планировать выдачу и возврат, а также оптимизировать закупки, экономя время и ресурсы клуба.
+        </p>
+        <div class="footer-TravelAgency">
+            &copy; 2025 FitStock Bancu
+        </div>
+    </div>
+
+    <!-- Блок Контакты с НОВЫМИ КЛАССАМИ -->
+    <div class="contact-grid">
+
+        <!-- 1. Email -->
+        <a href="mailto:TTiP@mail.ru" class="contact-card">
+            <!-- Оставлены ваши ссылки на изображения, но обратите внимание, что они могут не загрузиться -->
+            <img class="card-icon" src="~/images/email.png" alt="Email Icon" />
+            <h2>Email</h2>
+            <p>TTiP@mail.ru</p>
+        </a>
+
+        <!-- 2. Телефон -->
+        <a href="tel:+37377777777" class="contact-card">
+            <img class="card-icon" src="~/images/telefon.png" alt="Phone Icon" />
+            <h2>Телефон</h2>
+            <p>+ (373) 777-77-777</p>
+        </a>
+
+        <!-- 3. Адрес -->
+        <div class="contact-card">
+            <img class="card-icon" src="~/images/mesto.png" alt="Address Icon" />
+            <h2>Адрес</h2>
+            <p>Тираспольский техникум информатики и права</p>
+        </div>
+    </div>
+
+    <!-- НОВЫЙ БЛОК: Социальные сети -->
+    <div class="social-media-container">
+        <h3>Мы в социальных сетях</h3>
+        <div class="social-icons-wrapper">
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/telegram.png" alt="Telegram Icon" />
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/vk.png" alt="VKontakte Icon" />
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/instagram.png" alt="Instagram Icon" />
+            </a>
+        </div>
+    </div>
+</footer>
+

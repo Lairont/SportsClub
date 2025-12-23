@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bAOe4e/KAfc=",
+  "dgSpecHash": "9nrxbKze21E=",
   "success": true,
-  "projectFilePath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj",
+  "projectFilePath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\petrb\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\petrb\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",

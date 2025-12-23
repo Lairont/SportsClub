@@ -700,6 +700,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Npgsql/8.0.3": {
         "type": "package",
         "dependencies": {
@@ -2194,6 +2207,36 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.4": {
+      "sha512": "pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.4.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Npgsql/8.0.3": {
       "sha512": "6WEmzsQJCZAlUG1pThKg/RmeF6V+I0DmBBBE/8YzpRtEzhyZzKcK7ulMANDm5CkxrALBEC8H+5plxHWtIL7xnA==",
       "type": "package",
@@ -2633,6 +2676,7 @@
     "net8.0": [
       "AutoMapper >= 13.0.1",
       "Microsoft.AspNetCore.Authentication.Google >= 8.0.4",
+      "Newtonsoft.Json >= 13.0.4",
       "SporClub_Bancu.DAL >= 1.0.0",
       "SportClub_Bancu.Domain >= 1.0.0",
       "SportClub_Bancu.Servise >= 1.0.0"
@@ -2645,11 +2689,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
+      "projectUniqueName": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
       "projectName": "SportsClub_Bancu",
-      "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
+      "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
       "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
-      "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\obj\\",
+      "outputPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportsClub_Bancu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\Visual Studio\\Shared\\NuGetPackages"
@@ -2670,14 +2714,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
-              "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj"
+            "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
+              "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj"
             },
-            "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
-              "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
+            "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
+              "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
             },
-            "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj": {
-              "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj"
+            "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj": {
+              "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj"
             }
           }
         }
@@ -2692,7 +2736,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -2705,6 +2749,10 @@
           "Microsoft.AspNetCore.Authentication.Google": {
             "target": "Package",
             "version": "[8.0.4, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.4, )"
           }
         },
         "imports": [
@@ -2726,7 +2774,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

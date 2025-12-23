@@ -1,0 +1,87 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Услуги";
+}
+<style>
+    .img-header {
+        display: none;
+    }
+</style>
+
+
+<main class="services-wrapper">
+
+    <h2 class="info-sections">Наши услуги</h2>
+
+    <div class="card-container-wrapper">
+
+        <div class="card-background-wrapper">
+
+            <div id="flipCard" class="flip-card">
+                <div class="flip-card-inner">
+                    <div id="front" class="flip-card-face flip-card-front">
+                    </div>
+                    <div id="back" class="flip-card-face flip-card-back">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer-left">
+        <h2>FitStock</h2>
+        <p>
+            Наша система помогает спортивным клубам и секциям эффективно управлять инвентарём и оборудованием.
+            Вы сможете легко отслеживать состояние, местоположение и использование всех спортивных принадлежностей,
+            планировать выдачу и возврат, а также оптимизировать закупки, экономя время и ресурсы клуба.
+        </p>
+        <div class="footer-TravelAgency">
+            &copy; 2025 FitStock Bancu
+        </div>
+    </div>
+
+
+    <div class="contact-grid">
+
+        <!-- 1. Email -->
+        <a href="mailto:TTiP@mail.ru" class="contact-card">
+            <img class="card-icon" src="~/images/email.png" alt="Email Icon" />
+            <h2>Email</h2>
+            <p>TTiP@mail.ru</p>
+        </a>
+
+        <!-- 2. Телефон -->
+        <a href="tel:+37377777777" class="contact-card">
+            <img class="card-icon" src="~/images/telefon.png" alt="Phone Icon" />
+            <h2>Телефон</h2>
+            <p>+ (373) 777-77-777</p>
+        </a>
+
+        <!-- 3. Адрес -->
+        <div class="contact-card">
+            <img class="card-icon" src="~/images/mesto.png" alt="Address Icon" />
+            <h2>Адрес</h2>
+            <p>Тираспольский техникум информатики и права</p>
+        </div>
+    </div>
+
+    <!-- НОВЫЙ БЛОК: Социальные сети -->
+    <div class="social-media-container">
+        <h3>Мы в социальных сетях</h3>
+        <div class="social-icons-wrapper">
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/telegram.png" alt="Telegram Icon" />
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/vk.png" alt="VKontakte Icon" />
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/instagram.png" alt="Instagram Icon" />
+            </a>
+        </div>
+    </div>
+</footer>

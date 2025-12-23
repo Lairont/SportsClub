@@ -1,0 +1,197 @@
+﻿@model IEnumerable<SportClub_Bancu.Domain.ViewModels.InventoryPageViewModel>
+
+@{
+    Layout = "_Layout";
+    ViewData["title"] = "Корзина";
+}
+
+<style>
+    .img-header {
+        display: none;
+    }
+
+    .cart-wrapper {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 0 20px;
+        min-height: 60vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .cart-title {
+        border-left: 5px solid #28a745;
+        padding-left: 15px;
+        margin-bottom: 30px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .cart-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Стиль карточки товара */
+    .cart-item {
+        display: grid;
+        grid-template-columns: 150px 1fr auto auto;
+        align-items: center;
+        background: #fff;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        transition: transform 0.2s;
+        gap: 20px;
+    }
+
+        .cart-item:hover {
+            transform: translateY(-2px);
+        }
+
+        .cart-item img {
+            width: 150px;
+            height: 100px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+    .item-info h3 {
+        margin: 0;
+        font-size: 1.2rem;
+        color: #222;
+    }
+
+    .item-price {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #28a745;
+        white-space: nowrap;
+    }
+
+    /* Кнопка удаления */
+    .btn-delete {
+        background: #fff;
+        color: #dc3545;
+        border: 2px solid #dc3545;
+        padding: 8px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-weight: 600;
+    }
+
+        .btn-delete:hover {
+            background: #dc3545;
+            color: #fff;
+        }
+
+    /* Итоговая панель */
+    .cart-footer {
+        margin-top: 40px;
+        padding: 25px;
+        background: #af916d;
+        color: white;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .total-amount {
+        font-size: 1.5rem;
+    }
+
+    .btn-checkout {
+        background: #28a745;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+        .btn-checkout:hover {
+            background: #218838;
+        }
+
+    .empty-state {
+        text-align: center;
+        padding: 60px 0;
+    }
+</style>
+
+<div class="cart-wrapper">
+    <h1 class="cart-title">Ваша корзина</h1>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="cart-grid">
+            @foreach (var item in Model)
+            {
+                <div class="cart-item">
+                    <img src="@item.PathImg" alt="@item.Name" />
+
+                    <div class="item-info">
+                        <h3>@item.Name</h3>
+                    </div>
+
+                    <div class="item-price">
+                        @item.Price ₽
+                    </div>
+
+                    @* Кнопка удаления. Форма стреляет в метод RemoveFromCart *@
+                    <form action="/Home/RemoveFromCart" method="post" style="margin:0;">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn-delete">Удалить</button>
+                    </form>
+                </div>
+            }
+        </div>
+
+        <div class="cart-footer">
+            <div class="total-amount">
+                Итого: <strong>@Model.Sum(x => x.Price) ₽</strong>
+            </div>
+            <button class="btn-checkout">Оформить заказ</button>
+        </div>
+    }
+    else
+    {
+        <div class="empty-state">
+            <p style="font-size: 1.2rem; color: #777;">Корзина пуста. Время добавить что-то полезное!</p>
+            <a href="/Inventory/ListOfInventory" class="btn-checkout" style="text-decoration:none; display:inline-block; margin-top:15px;">В каталог</a>
+        </div>
+    }
+</div>
+
+@* Твой подвал *@
+<footer>
+    <div class="footer-left">
+        <h2>FitStock</h2>
+        <p>Наша система помогает спортивным клубам и секциям эффективно управлять инвентарём и оборудованием.</p>
+        <div class="footer-TravelAgency">
+            &copy; 2025 FitStock Bancu
+        </div>
+    </div>
+
+    <div class="contact-grid">
+        <a href="mailto:TTiP@mail.ru" class="contact-card">
+            <img class="card-icon" src="~/images/email.png" alt="Email" />
+            <h2>Email</h2>
+            <p>TTiP@mail.ru</p>
+        </a>
+        <a href="tel:+37377777777" class="contact-card">
+            <img class="card-icon" src="~/images/telefon.png" alt="Phone" />
+            <h2>Телефон</h2>
+            <p>+ (373) 777-77-777</p>
+        </a>
+        <div class="contact-card">
+            <img class="card-icon" src="~/images/mesto.png" alt="Location" />
+            <h2>Адрес</h2>
+            <p>Тирасполь, ТТиП</p>
+        </div>
+    </div>
+</footer>

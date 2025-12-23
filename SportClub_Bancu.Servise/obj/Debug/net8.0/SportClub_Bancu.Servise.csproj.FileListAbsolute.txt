@@ -28,3 +28,75 @@ F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Servise\obj\Debug\net8.
 F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Servise\obj\Debug\net8.0\refint\SportClub_Bancu.Servise.dll
 F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.pdb
 F:\Visual Studio\job\practica\SportsClub\SportClub_Bancu.Servise\obj\Debug\net8.0\ref\SportClub_Bancu.Servise.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.deps.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.pdb
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SporClub_Bancu.DAL.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Domain.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SporClub_Bancu.DAL.pdb
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Domain.pdb
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.csproj.AssemblyReference.cache
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.GeneratedMSBuildEditorConfig.editorconfig
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.AssemblyInfoInputs.cache
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.AssemblyInfo.cs
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.csproj.CoreCompileInputs.cache
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.sourcelink.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClu.3D2A0D20.Up2Date
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\refint\SportClub_Bancu.Servise.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.pdb
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\ref\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\refint\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.deps.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SporClub_Bancu.DAL.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Domain.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SporClub_Bancu.DAL.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Domain.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.csproj.AssemblyReference.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.AssemblyInfoInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.AssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.csproj.CoreCompileInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.sourcelink.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClu.3D2A0D20.Up2Date
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportClub_Bancu.Servise\obj\Debug\net8.0\ref\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.deps.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SporClub_Bancu.DAL.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Domain.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SporClub_Bancu.DAL.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Domain.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.csproj.AssemblyReference.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.AssemblyInfoInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.AssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.csproj.CoreCompileInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.sourcelink.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClu.3D2A0D20.Up2Date
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\refint\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\ref\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.deps.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Servise.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SporClub_Bancu.DAL.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Domain.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SporClub_Bancu.DAL.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\bin\Debug\net8.0\SportClub_Bancu.Domain.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.csproj.AssemblyReference.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.AssemblyInfoInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.AssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.csproj.CoreCompileInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.sourcelink.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClu.3D2A0D20.Up2Date
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\refint\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\SportClub_Bancu.Servise.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportClub_Bancu.Servise\obj\Debug\net8.0\ref\SportClub_Bancu.Servise.dll

@@ -1,21 +1,30 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var localPic = User.Claims.FirstOrDefault(c => c.Type == "local_pic")?.Value;
+
+    var userAvatar = !string.IsNullOrEmpty(localPic)
+        ? localPic
+        : Url.Content("~/images/default-avatar.png");
+}
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Мир Путешествий</title>
+    <title>@ViewData["Title"] - Fitstock</title>
 
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/login_and_registration.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Message.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Inventory.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Filter.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Profile.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/PageInventory.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Contact.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/ServInfo.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
 
-</head>
-<body>
+ </head>
+ <body>
     <header class="main-header">
         <div class="logo">FitStock</div>
 
@@ -25,8 +34,7 @@
         <nav class="menu">
             <ul>
                 <li><a href="/Home/SiteInformation">Главная</a></li>
-                <li><a href="#overview">Обзор</a></li>
-                <li><a href="#services">Услуги</a></li>
+                <li><a href="/Home/ServInfo">Услуги</a></li>
                 <li><a href="/Inventory/ListOfInventory">Инвентарь</a></li>
                 <li><a href="/Home/Contact">Контакты</a></li>
             </ul>
@@ -34,26 +42,44 @@
 
 
         <div id="side-menu" class="side-menu">
-            <div>
-                <button class="button" id="side-menu-button-click-to-hide" type="button" name="button">X</button>
-
-                <ul>
-                    <li><a href="/Home/SiteInformation">Главная</a></li>
-                    <li><a href="#overview">Обзор</a></li>
-                    <li><a href="#services">Услуги</a></li>
-                    <li><a href="/Inventory/ListOfInventory">Инвентарь</a></li>
-                    <li><a href="/Home/Contact">Контакты</a></li>
-                </ul>
-
-            </div>
+            <button class="button" id="side-menu-button-click-to-hide" type="button">🡣</button>
 
             @if (User.Identity.IsAuthenticated)
             {
-                <button id="open-login-side" class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">Выйти</button>
+                <div class="side-menu-user-profile">
+                    <div class="avatar-circle">
+                        <img src="@userAvatar" alt="Avatar" referrerpolicy="no-referrer" />
+                    </div>
+                    <div class="side-user-info">
+                        <span class="side-user-name">@User.Identity.Name</span>
+                    </div>
+                </div>
+            }
+
+            <ul>
+                <li><a href="/Home/SiteInformation">Главная</a></li>
+                <li><a href="/Home/ServInfo">Услуги</a></li>
+                <li><a href="/Inventory/ListOfInventory">Инвентарь</a></li>
+                <li><a href="/Home/Contact">Контакты</a></li>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li class="separator"></li>
+                    <li><a href="/Home/Profile">Мой профиль</a></li>
+                    <li><a href="/Home/Crate">Моя корзина</a></li>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li><a href="/Admin/Dashboard" style="color: #efad51;">Админ-панель</a></li>
+                    }
+                }
+            </ul>
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <button class="button logout-btn" onclick="window.location.href='@Url.Action("Logout", "Home")'">Выйти</button>
             }
             else
             {
-                <button id="open-login-side">Войти</button>
+                <button id="open-login-side" class="button">Войти</button>
             }
         </div>
 
@@ -61,11 +87,34 @@
         <div class="button-header">
             @if (User.Identity.IsAuthenticated)
             {
-                <button id="open-login" class="button" type="button" name="button" onclick="window.location.href = '@Url.Action("Logout", "Home")'">Выйти</button>
+                <div class="user-menu-wrapper">
+                    @* ТВОЙ БЛОК ТУТ: Обертка для круглой аватарки *@
+                    <div class="avatar-circle" id="userMenuBtn">
+                        <img src="@userAvatar" alt="Avatar" referrerpolicy="no-referrer" />
+                    </div>
+
+                    @* Выпадающее меню, которое открывается по клику *@
+                    <div id="userDropdown" class="user-dropdown-menu">
+                        <div class="user-info-brief">
+                            <p>Привет, <strong>@User.Identity.Name</strong>!</p>
+                        </div>
+                        <hr>
+                        <a href="/Home/Profile">👤 Профиль</a>
+                        <a href="/Home/Crate">🛒 Корзина</a>
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a href="/Admin/Dashboard" class="admin-link">⚙️ Панель администратора</a>
+                        }
+
+                        <hr>
+                        <a href="@Url.Action("Logout", "Home")" class="logout-link">Выход</a>
+                    </div>
+                </div>
             }
             else
             {
-                <button id="open-login">Войти</button>
+                <button id="open-login" class="button">Войти</button>
             }
         </div>
 
@@ -96,6 +145,7 @@
     <script src="~/js/shared_script.js" asp-append-version="true"></script>
     <script src="~/js/Filter.js" asp-append-version="true"></script>
     <script src="~/js/home_script.js" asp-append-version="true"></script>
+    <script src="~/js/profile.js" asp-append-version="true"></script>
     <script src="~/js/login_and_registration_script.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

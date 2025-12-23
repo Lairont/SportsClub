@@ -16,10 +16,11 @@ namespace SportClub_Bancu.Domain.Helpers
             {
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.Name, user.Login),
-                new Claim(ClaimsIdentity.DefaultRoleClaimType, user.Role.ToString()),
+                new Claim(ClaimTypes.Role, user.Role.ToString()),
                 new Claim("AvatarPath", user.PathImage),
+                new Claim("local_pic", user.PathImage ?? ""),
             };
-            return new ClaimsIdentity(claims, "ApplicationCookie");
+            return new ClaimsIdentity(claims, "ApplicationCookie", ClaimTypes.Name, ClaimTypes.Role);
 
             string email = ClaimTypes.Email; string defaultRoleClaimType = ClaimsIdentity.DefaultRoleClaimType; ;
             //ClaimTypes.Email, ClaimsIdentity.DefaultRoleClaimType);

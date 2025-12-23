@@ -21,11 +21,5 @@ namespace SportClub_Bancu.Domain.ModelsDb
 
         public DateTime CreatedAt { get; set; }
 
-
-
-
-
-
-        //спросить
     }
 }

@@ -21,16 +21,51 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
 })
 
-  .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
-   {
-       options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
-       options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
-       options.Scope.Add("profile");
-       options.ClaimActions.MapJsonKey("picture", "picture"); 
-   });
+.AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
+{
+    options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
+    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+    options.Scope.Add("openid");
+    options.Scope.Add("profile");
+    options.Scope.Add("email");
+    options.SaveTokens = true;
+
+    options.Events.OnCreatingTicket = async context =>
+    {
+        Console.WriteLine(">>>> ¿¬“Œ–»«¿÷»ﬂ œŒÿÀ¿");
+
+        if (context.User.TryGetProperty("picture", out var pictureUrl))
+        {
+            var userId = context.Principal.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value ?? "unknown";
+            var fileName = $"avatar_{userId}.jpg";
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
+
+            try
+            {
+                using var client = new HttpClient();
+                var bytes = await client.GetByteArrayAsync(pictureUrl.ToString());
+                await File.WriteAllBytesAsync(filePath, bytes);
+
+                context.Identity.AddClaim(new System.Security.Claims.Claim("local_pic", $"/images/{fileName}"));
+                Console.WriteLine(">>>>  ¿–“»Õ ¿ —Œ’–¿Õ≈Õ¿: " + filePath);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(">>>> Œÿ»¡ ¿ — ¿◊»¬¿Õ»ﬂ: " + ex.Message);
+            }
+        }
+        else
+        {
+            Console.WriteLine(">>>> √”√À Õ≈ œ–»—À¿À œŒÀ≈ 'PICTURE'!");
+        }
+    };
+});
 
 builder.Services.InitializeRepositories();
 builder.Services.InitializeServices();
+
+builder.Services.AddSession();
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
@@ -43,8 +78,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+app.UseSession();
+
+
 app.UseAuthentication();
+app.UseAuthorization();
+
 
 app.MapControllerRoute(
     name: "default",

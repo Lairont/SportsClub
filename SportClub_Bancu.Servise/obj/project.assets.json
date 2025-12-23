@@ -2592,11 +2592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj",
+      "projectUniqueName": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj",
       "projectName": "SportClub_Bancu.Servise",
-      "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj",
+      "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj",
       "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
-      "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\obj\\",
+      "outputPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\Visual Studio\\Shared\\NuGetPackages"
@@ -2617,11 +2617,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
-              "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj"
+            "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
+              "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj"
             },
-            "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
-              "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
+            "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
+              "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
             }
           }
         }
@@ -2636,7 +2636,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -2667,7 +2667,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

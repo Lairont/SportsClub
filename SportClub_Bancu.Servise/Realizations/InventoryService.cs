@@ -318,7 +318,7 @@ namespace SportClub_Bancu.Servise.Realizations
                 if (filter != null && inventoryList != null)
                 {
          
-                    if (filter.PriceMax != 500000 || filter.PriceMin != 0)
+                    if (filter.PriceMax != 200000 || filter.PriceMin != 0)
                     {
                         inventoryList = inventoryList
                             .Where(f => f.Price <= filter.PriceMax && f.Price >= filter.PriceMin)

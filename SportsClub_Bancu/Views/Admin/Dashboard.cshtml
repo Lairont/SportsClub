@@ -1,0 +1,169 @@
+﻿@model SportClub_Bancu.Domain.ViewModels.AdminDashboardViewModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Панель администратора";
+}
+
+<link rel="stylesheet" href="~/css/Admin.css" />
+
+<div class="admin-container">
+
+    <header class="admin-header">
+        <h1>Панель администратора</h1>
+    </header>
+
+    <section class="stats-grid">
+        <div class="stat-card">
+            <h3>Всего аккаунтов</h3>
+            <p class="stat-number">@Model.TotalUsers</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Администраторов</h3>
+            <p class="stat-number">@Model.TotalAdmins</p>
+        </div>
+
+        <div class="stat-card stat-info">
+            <h3>Состояние системы</h3>
+            <p class="stat-label">Работает стабильно</p>
+        </div>
+    </section>
+
+    <section class="users-section">
+        <h2>Пользователи системы</h2>
+
+        <div class="table-wrapper">
+            <table class="admin-table">
+                <thead>
+                    <tr>
+                        <th class="avatar-cell">Аватар</th>
+                        <th>ID</th>
+                        <th>Логин</th>
+                        <th>Email</th>
+                        <th>Роль</th>
+                        <th>Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model.AllUsers)
+                    {
+                        <tr id="user-row-@user.Id">
+                            <td class="avatar-cell">
+                                <div class="avatar">
+                                    <img src="@(string.IsNullOrEmpty(user.PathImage) ? "/images/default-avatar.png" : user.PathImage)"
+                                         alt="User Photo" />
+                                </div>
+                            </td>
+
+                            <td>@user.Id.ToString().Substring(0, 8)…</td>
+                            <td>@user.Login</td>
+                            <td>@user.Email</td>
+
+                            <td class="role-text @(user.Role == SportClub_Bancu.Domain.Enum.UserRole.Admin ? "role-admin" : "role-user")">
+                                @(user.Role == SportClub_Bancu.Domain.Enum.UserRole.Admin
+                                                            ? "Администратор"
+                                                            : "Пользователь")
+                            </td>
+
+                            <td>
+                                @if (user.Email != User.Identity.Name)
+                                {
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                           <button class="btn-delete" onclick="deleteUser('@user.Id')">
+                                        Удалить
+                                    </button>
+
+                                    }
+                                 
+                                }
+                                else
+                                {
+                                    <span class="self-label">Это вы</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</div>
+
+<script>
+    async function deleteUser(userId) {
+        if (!confirm("Вы уверены, что хотите удалить этот аккаунт?")) return;
+
+        const response = await fetch(`/Admin/DeleteUser?id=${userId}`, {
+            method: 'POST'
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            document.getElementById(`user-row-${userId}`).remove();
+            // Можно обновить цифры статистики через JS при желании
+        } else {
+            alert("Ошибка: " + result.message);
+        }
+    }
+</script>
+
+<footer>
+    <div class="footer-left">
+        <!-- Заголовок для FitStock, можно использовать для стилизации логотипа/названия -->
+        <h2>FitStock</h2>
+        <p>
+            Наша система помогает спортивным клубам и секциям эффективно управлять инвентарём и оборудованием.
+            Вы сможете легко отслеживать состояние, местоположение и использование всех спортивных принадлежностей,
+            планировать выдачу и возврат, а также оптимизировать закупки, экономя время и ресурсы клуба.
+        </p>
+        <div class="footer-TravelAgency">
+            &copy; 2025 FitStock Bancu
+        </div>
+    </div>
+
+    <!-- Блок Контакты с НОВЫМИ КЛАССАМИ -->
+    <div class="contact-grid">
+
+        <!-- 1. Email -->
+        <a href="mailto:TTiP@mail.ru" class="contact-card">
+            <!-- Оставлены ваши ссылки на изображения, но обратите внимание, что они могут не загрузиться -->
+            <img class="card-icon" src="~/images/email.png" alt="Email Icon" />
+            <h2>Email</h2>
+            <p>TTiP@mail.ru</p>
+        </a>
+
+        <!-- 2. Телефон -->
+        <a href="tel:+37377777777" class="contact-card">
+            <img class="card-icon" src="~/images/telefon.png" alt="Phone Icon" />
+            <h2>Телефон</h2>
+            <p>+ (373) 777-77-777</p>
+        </a>
+
+        <!-- 3. Адрес -->
+        <div class="contact-card">
+            <img class="card-icon" src="~/images/mesto.png" alt="Address Icon" />
+            <h2>Адрес</h2>
+            <p>Тираспольский техникум информатики и права</p>
+        </div>
+    </div>
+
+    <!-- НОВЫЙ БЛОК: Социальные сети -->
+    <div class="social-media-container">
+        <h3>Мы в социальных сетях</h3>
+        <div class="social-icons-wrapper">
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/telegram.png" alt="Telegram Icon" />
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/vk.png" alt="VKontakte Icon" />
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+                <img src="~/images/instagram.png" alt="Instagram Icon" />
+            </a>
+        </div>
+    </div>
+</footer>
+

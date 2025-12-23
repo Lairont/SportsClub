@@ -25,9 +25,9 @@ namespace SportClub_Bancu
         public static void InitializeServices(this IServiceCollection services)
         {
             services.AddScoped<IAccountService, AccountService>();
-            services.AddScoped<IInventoryService, InventoryService>();         //Добавлено
-            services.AddScoped<IOrdersService, OrdersService>();               //Добавлено
-            services.AddScoped<ICategoriesService, CategoriesService>();       //Добавлено
+            services.AddScoped<IInventoryService, InventoryService>();      
+            services.AddScoped<IOrdersService, OrdersService>();           
+            services.AddScoped<ICategoriesService, CategoriesService>();       
 
             services.AddControllersWithViews()
                   .AddDataAnnotationsLocalization()

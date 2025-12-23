@@ -1,9 +1,13 @@
 ﻿.block-message {
     display: grid;
     font-weight: 600;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 .message-text {
@@ -12,93 +16,105 @@
 }
 
     .message-text label {
-        font-weight: 600;
-        margin-bottom: 5px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #2c3e50;
     }
 
     .message-text .text {
-        height: 150px;
-        resize: none;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 6px;
+        height: 160px;
+        resize: vertical;
+        padding: 15px;
+        border: 2px solid #f0f0f0;
+        border-radius: 15px;
         font-family: inherit;
         font-size: 16px;
+        background: #fdfdfd;
+        transition: all 0.3s ease;
+    }
+
+    .message-text .text-short {
+        height: 50px; 
+        resize: none; 
+        padding: 10px 15px;
+    }
+
+    .message-text .text:focus {
+        outline: none;
+        border-color: #c47b2c;
+        background: #fff;
+        box-shadow: 0 0 0 4px rgba(196, 123, 44, 0.1);
     }
 
 .message-button {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
 
     .message-button .button {
-        border: 2px solid #b2640f;
+        border: 2px solid #c47b2c;
         background-color: transparent;
-        padding: 8px 20px;
-        border-radius: 15px;
+        padding: 12px 40px;
+        border-radius: 30px;
         color: #c47b2c;
-        font-size: 18px;
-        font-weight: 600;
-        box-shadow: 0 2px 6px rgba(196, 123, 44, 0.15);
+        font-size: 16px;
+        font-weight: 700;
+        box-shadow: none;
         transition: all 300ms ease;
     }
 
         .message-button .button:hover {
             color: #fff;
-            background-color: #b2640f;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(196, 123, 44, 0.3);
+            background-color: #c47b2c;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(196, 123, 44, 0.3);
         }
 
-
-
-
-
-/* --- Основные стили футера --- */
 footer {
-    background-color: #fff9f5; /* Очень светлый фон с легким оранжевым оттенком */
-    color: #374151; /* Темный текст для контраста */
-    padding: 40px 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
-    margin-top: 80px;
+    background-color: #fffbf8;
+    color: #374151;
+    padding: 60px 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.03);
+    margin-top: 100px;
     display: grid;
     gap: 40px;
 }
 
-/* --- Стили для левой части (Описание) --- */
 .footer-left {
     padding-right: 20px;
 }
 
     .footer-left h2 {
         font-size: 2rem;
-        font-weight: 700;
-        color: #f97316; /* Акцентный оранжевый цвет */
-        margin-bottom: 15px;
+        font-weight: 800;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        margin-bottom: 20px;
         letter-spacing: 1px;
     }
 
     .footer-left p {
         font-size: 1rem;
-        line-height: 1.6;
-        color: #4b5563; /* Средне-серый текст */
-        margin-bottom: 20px;
+        line-height: 1.7;
+        color: #4b5563;
+        margin-bottom: 25px;
     }
 
 .footer-TravelAgency {
-    font-size: 0.875rem;
-    color: #9ca3af; /* Светло-серый копирайт */
-    padding-top: 15px;
-    border-top: 1px solid #e5e7eb; /* Легкий разделитель */
+    font-size: 0.9rem;
+    color: #9ca3af;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
 }
 
-/* --- Стили для Контактов (contact-grid) --- */
+
 .contact-grid {
     display: grid;
-    gap: 20px;
+    gap: 25px;
 }
 
 .contact-card {
@@ -106,114 +122,111 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #fef3e9; /* Светло-желтый/оранжевый фон карточки */
-    padding: 25px 15px;
-    border-radius: 12px;
-    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    padding: 25px 20px;
+    border-radius: 16px;
+    transition: all 0.3s ease;
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-    border: 1px solid #fbd38d; /* Светлая оранжевая рамка */
+    border: 1px solid #fff0d4;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.02);
 }
 
     .contact-card:hover {
-        transform: translateY(-5px); /* Эффект подъема при наведении */
-        background-color: #fee2c9; /* Чуть темнее при наведении */
-        box-shadow: 0 10px 20px rgba(249, 115, 22, 0.2); /* Оранжевая тень */
+        transform: translateY(-5px);
+        background-color: #fff;
+        box-shadow: 0 15px 30px rgba(249, 115, 22, 0.15);
+        border-color: #f97316;
     }
 
     .contact-card h2 {
         font-size: 1.25rem;
         font-weight: 700;
-        color: #f97316; /* Акцентный оранжевый цвет */
-        margin-top: 10px;
+        color: #f97316;
+        margin-top: 15px;
         margin-bottom: 5px;
         text-transform: uppercase;
     }
 
     .contact-card p {
-        font-size: 0.875rem;
-        color: #4b5563;
+        font-size: 0.9rem;
+        color: #666;
         word-break: break-all;
     }
 
 .card-icon {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     object-fit: contain;
-    /* Убираем инверсию, так как фон светлый. Оставляем легкую тень. */
-    filter: drop-shadow(0 0 4px rgba(249, 115, 22, 0.5));
+    filter: drop-shadow(0 4px 6px rgba(249, 115, 22, 0.3));
 }
 
-/* --- Стили для социальных сетей (Новый блок) --- */
+
 .social-media-container {
-    padding-top: 20px;
-    /* На мобильных занимает всю ширину и центрируется */
+    padding-top: 30px;
     grid-column: 1 / -1;
     text-align: center;
 }
 
     .social-media-container h3 {
         font-size: 1.2rem;
-        font-weight: 600;
+        font-weight: 700;
         color: #f97316;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
 .social-icons-wrapper {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .social-icon {
     display: inline-block;
-    width: 44px;
-    height: 44px;
-    padding: 8px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
     border-radius: 50%;
-    background-color: #fbd38d; /* Светлый оранжевый круг */
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color: #fff;
+    border: 2px solid #fbd38d;
+    transition: all 0.3s ease;
 }
 
     .social-icon:hover {
-        background-color: #f97316; /* Насыщенный оранжевый при наведении */
-        transform: scale(1.1);
+        background-color: #f97316;
+        border-color: #f97316;
+        transform: scale(1.1) rotate(10deg);
+        box-shadow: 0 5px 15px rgba(249, 115, 22, 0.4);
     }
 
     .social-icon img {
         width: 100%;
         height: 100%;
         object-fit: contain;
-        /* Иконки соцсетей (если они цветные) будут хорошо видны на светлом фоне */
     }
 
-
-/* --- Адаптация для планшетов и настольных компьютеров --- */
 @media (min-width: 768px) {
-    /* Основной макет: Две колонки (Описание и Контакты) */
     footer {
-        grid-template-columns: 1.5fr 1fr; /* Левая часть шире */
+        grid-template-columns: 1.2fr 1fr;
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
         padding: 60px 40px;
     }
 
-    /* Контакты: Три колонки в сетке */
     .contact-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
-        align-self: start; /* Выравнивание по верху */
+        gap: 20px;
+        align-self: start;
     }
 
-    /* Соцсети должны быть под описанием */
     .social-media-container {
-        grid-column: 1 / span 1; /* Занимает только первую колонку под footer-left */
+        grid-column: 1 / span 1;
         text-align: left;
-        margin-top: 0; /* Отменить отрицательный отступ */
-        border-top: 1px solid #e5e7eb; /* Добавить разделитель сверху */
-        padding-top: 40px;
+        margin-top: 0;
+        border-top: 1px solid #eee;
+        padding-top: 30px;
     }
 
     .social-icons-wrapper {
@@ -221,7 +234,6 @@ footer {
     }
 }
 
-/* Адаптация для больших экранов */
 @media (min-width: 1024px) {
     footer {
         padding: 80px 60px;

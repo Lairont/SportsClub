@@ -22,63 +22,6 @@
 </div>
  *@
 
-    <div class="container-section">
-        <h2 class="info-sections">Наши услуги</h2>
-        <div class="card-container">
-            <div class="arrow left">&#10094;</div>
-
-            <div class="card-wrapper">
-          
-            <div class="card">
-                <img src="~/images/postrane.jpg" alt="Доставка по всей стране">
-                <h3>Доставка по всей стране</h3>
-                <p>
-                    Осуществляем перевозки в любой регион — от локальных выездов до междугородних марафонов и турниров.
-                    Чёткое соблюдение графика и отслеживание в реальном времени.
-                </p>
-            </div>
-
-            <div class="card">
-                <img src="~/images/fint.jpg" alt="Инвентарь любого объёма">
-                <h3>Любой объём инвентаря</h3>
-                <p>
-                    Перевозим как один мяч, так и полный комплект экипировки для крупного спортивного клуба:
-                    от гимнастических матов до хоккейных ворот и велотренажёров.
-                </p>
-            </div>
-
-            <div class="card">
-                <img src="~/images/distavka.jpg" alt="Быстрая готовность">
-                <h3>Экспресс-доставка</h3>
-                <p>
-                    Нужно срочно доставить инвентарь к соревнованиям?
-                    Готовы выехать в течение 2 часов после заявки — без задержек и переплат.
-                </p>
-            </div>
-
-            <div class="card">
-                <img src="~/images/strohovka.jpg" alt="Страховка груза">
-                <h3>Полная страховка</h3>
-                <p>
-                    Весь инвентарь застрахован на полную стоимость.
-                    В редком случае повреждения — компенсация без бюрократии и задержек.
-                </p>
-            </div>
-
-            <div class="card">
-                <img src="~/images/poderka.jpg" alt="Поддержка 24/7">
-                <h3>Поддержка 24/7</h3>
-                <p>
-                    Наша команда на связи круглосуточно.
-                    Поможем с логистикой перед турниром, изменим маршрут или ответим на вопросы — в любое время.
-                </p>
-            </div>
-            </div>
-
-            <div class="arrow right">&#10095;</div>
-        </div>
-    </div>
-
 
 @* 
 <div class="container-section">
@@ -92,27 +35,52 @@
 </div> *@
 
 
+
 @*сообщение*@
-    <div class="container-section">
-        <h2 class="info-sections">Написать сообщение</h2>
+<style>
+    .container-section {
+        width: 30%; 
+        min-width: 1000px; 
+        margin: 50px auto;
+        background-color: #ffffff;
+        border-radius: 20px;
+        padding: 40px;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 1px solid rgba(0,0,0,0.02);
+        box-sizing: border-box; 
+    }
+</style>
 
-        <div class="block-message">
-            <p>Вы можете написать нам на почту здесь:</p>
+<div class="container-section">
+    <h2>Написать сообщение</h2>
 
-            <div class="message-text">
-                <label for="message">Сообщение:</label>
-                <textarea id="message" class="text" placeholder="Введите ваше сообщение..."></textarea>
-            </div>
-
-            <div class="message-button">
-                <button class="button" type="submit">Отправить</button>
-            </div>
+    <form action="https://formsubmit.co/petrbancu@gmail.com" method="POST">
+        <div class="message-text">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" class="text text-short" placeholder="Введите ваше имя" required>
         </div>
-    </div>
+
+        <div class="message-text">
+            <label for="email">Ваш E-mail:</label>
+            <input type="email" id="email" name="_replyto" class="text text-short" placeholder="example@mail.com" required>
+        </div>
+
+        <div class="message-text">
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" class="text" placeholder="Введите ваше сообщение..." required></textarea>
+        </div>
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <div class="message-button">
+            <button class="button" type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
 
 <footer>
     <div class="footer-left">
-        <!-- Заголовок для FitStock, можно использовать для стилизации логотипа/названия -->
         <h2>FitStock</h2>
         <p>
             Наша система помогает спортивным клубам и секциям эффективно управлять инвентарём и оборудованием.
@@ -124,12 +92,11 @@
         </div>
     </div>
 
-    <!-- Блок Контакты с НОВЫМИ КЛАССАМИ -->
     <div class="contact-grid">
 
         <!-- 1. Email -->
         <a href="mailto:TTiP@mail.ru" class="contact-card">
-            <!-- Оставлены ваши ссылки на изображения, но обратите внимание, что они могут не загрузиться -->
+ 
             <img class="card-icon" src="~/images/email.png" alt="Email Icon" />
             <h2>Email</h2>
             <p>TTiP@mail.ru</p>

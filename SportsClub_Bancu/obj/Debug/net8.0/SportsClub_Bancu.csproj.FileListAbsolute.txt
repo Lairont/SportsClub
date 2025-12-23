@@ -245,3 +245,524 @@ F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\Bounc
 F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\MailKit.dll
 F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\MimeKit.dll
 F:\Visual Studio\job\practica\SportsClub\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\appsettings.Development.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\appsettings.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.endpoints.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.runtime.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.exe
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.deps.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.runtimeconfig.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.pdb
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\AutoMapper.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Humanizer.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\MailKit.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\MimeKit.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Npgsql.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.CodeDom.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SporClub_Bancu.DAL.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Domain.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Servise.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SporClub_Bancu.DAL.pdb
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Domain.pdb
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Servise.pdb
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.csproj.AssemblyReference.cache
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.GeneratedMSBuildEditorConfig.editorconfig
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfoInputs.cache
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfo.cs
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.csproj.CoreCompileInputs.cache
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cs
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cache
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cache
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cs
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.sourcelink.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\bundle\SportsClub_Bancu.styles.css
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\projectbundle\SportsClub_Bancu.bundle.scp.css
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.development.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsCl.ADE71951.Up2Date
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\refint\SportsClub_Bancu.dll
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.pdb
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.genruntimeconfig.cache
+F:\Visual Studio\job\Curs1\Новая папка\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\ref\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\refint\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\appsettings.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.runtime.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.endpoints.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.exe
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.deps.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.runtimeconfig.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Humanizer.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\MailKit.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\MimeKit.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Npgsql.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SporClub_Bancu.DAL.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Domain.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SporClub_Bancu.DAL.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Domain.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Servise.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.csproj.AssemblyReference.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfoInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.csproj.CoreCompileInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.sourcelink.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\bundle\SportsClub_Bancu.styles.css
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\projectbundle\SportsClub_Bancu.bundle.scp.css
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsCl.ADE71951.Up2Date
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.genruntimeconfig.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub33\SportsClub_Bancu\obj\Debug\net8.0\ref\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\appsettings.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.endpoints.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.runtime.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.exe
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.deps.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.runtimeconfig.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Humanizer.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\MailKit.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\MimeKit.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Npgsql.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SporClub_Bancu.DAL.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Domain.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SporClub_Bancu.DAL.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Domain.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Servise.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.csproj.AssemblyReference.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfoInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.csproj.CoreCompileInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.sourcelink.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\bundle\SportsClub_Bancu.styles.css
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\projectbundle\SportsClub_Bancu.bundle.scp.css
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsCl.ADE71951.Up2Date
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\refint\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.genruntimeconfig.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\obj\Debug\net8.0\ref\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClub3 — копия\SportsClub_Bancu\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\appsettings.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.endpoints.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.staticwebassets.runtime.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.exe
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.deps.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.runtimeconfig.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportsClub_Bancu.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Humanizer.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\MailKit.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\MimeKit.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Npgsql.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SporClub_Bancu.DAL.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Domain.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Servise.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SporClub_Bancu.DAL.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Domain.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\bin\Debug\net8.0\SportClub_Bancu.Servise.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.csproj.AssemblyReference.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfoInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.AssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.csproj.CoreCompileInputs.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.RazorAssemblyInfo.cs
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.sourcelink.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\bundle\SportsClub_Bancu.styles.css
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\scopedcss\projectbundle\SportsClub_Bancu.bundle.scp.css
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsCl.ADE71951.Up2Date
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\refint\SportsClub_Bancu.dll
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.pdb
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\SportsClub_Bancu.genruntimeconfig.cache
+C:\Users\petrb\OneDrive\Desktop\SportsClubnew1 — копия\SportsClub_Bancu\obj\Debug\net8.0\ref\SportsClub_Bancu.dll

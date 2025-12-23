@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {}
+    "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {}
   },
   "projects": {
-    "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
+    "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
         "projectName": "SportClub_Bancu.Domain",
-        "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
+        "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
         "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
-        "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\obj\\",
+        "outputPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

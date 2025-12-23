@@ -61,7 +61,7 @@ namespace SportClub_Bancu.Servise
                 using (var client = new SmtpClient())
                 {
                     await client.ConnectAsync("smtp.gmail.com", 465, true).ConfigureAwait(false);
-                    await client.AuthenticateAsync("tany.podsekina.82@gmail.com", password).ConfigureAwait(false);
+                    await client.AuthenticateAsync("petrbancu@gmail.com", password).ConfigureAwait(false);
                     await client.SendAsync(emailMessage).ConfigureAwait(false);
                     await client.DisconnectAsync(true).ConfigureAwait(false);
                 }

@@ -7,53 +7,46 @@ const sortSelect = document.getElementById('sort-options');
 const applyFilterButton = document.getElementById('apply-filter');
 
 const DEFAULT_MIN_PRICE = 0;
-const DEFAULT_MAX_PRICE = 500000;
+const DEFAULT_MAX_PRICE = 200000;
 
-// ❗ ИСПРАВЛЕНИЕ: mySearch объявлена глобально и не переопределяется локально.
 let mySearch;
 
 
-// ----------------------------------------------------------------------
-// --- ФУНКЦИИ ПОИСКА ---
-// ----------------------------------------------------------------------
 
+//ФУНКЦИИ ПОИСКА 
 function insertMark(str, pos, len) {
     return str.slice(0, pos) + '<mark>' + str.slice(pos, pos + len) + '</mark>' + str.slice(pos + len);
 }
 
 function triggerSearch() {
-    // ❗ Защита от запуска до инициализации.
+
     if (!mySearch) return;
 
     let val = mySearch.value.trim().toLowerCase();
 
-    // 1. Выбираем все карточки инвентаря, которые были загружены после фильтра
     let items = document.querySelectorAll('.sc-inv-card');
 
     items.forEach(function (item) {
-        // 2. Получаем название товара
+
         let itemNameElement = item.querySelector('.sc-inv-card-title');
-        // Защита от случая, если нет элемента с названием
         if (!itemNameElement) return;
 
         let originalName = itemNameElement.innerText;
         let itemName = originalName.toLowerCase();
 
-        // 3. Логика скрытия: если введенный текст не найден, скрываем
         if (itemName.search(val) === -1) {
             item.classList.add('hide');
         } else {
-            // Если найдено, показываем
+
             item.classList.remove('hide');
         }
 
-        // 4. Логика подсветки
         if (val.length > 0 && itemName.search(val) !== -1) {
-            // Очищаем предыдущую подсветку, чтобы избежать дублирования <mark>
+
             itemNameElement.innerHTML = originalName;
             itemNameElement.innerHTML = insertMark(originalName, itemName.search(val), val.length);
         } else {
-            // Очищаем подсветку, если текст не найден или поле ввода пустое
+
             itemNameElement.innerHTML = originalName;
         }
     });
@@ -65,20 +58,16 @@ function triggerSearch() {
     }
 }
 
-// ----------------------------------------------------------------------
-// --- ФУНКЦИИ ЦЕНЫ ---
-// ----------------------------------------------------------------------
 
+//ФУНКЦИИ ЦЕНЫ
 function updatePriceValues() {
     const minVal = minPriceInput.value;
     const maxVal = maxPriceInput.value;
     priceValuesDisplay.innerText = `${minVal} - ${maxVal}`;
 }
 
-// ----------------------------------------------------------------------
-// --- ФУНКЦИИ СОХРАНЕНИЯ СОСТОЯНИЯ ---
-// ----------------------------------------------------------------------
 
+//ФУНКЦИИ СОХРАНЕНИЯ СОСТОЯНИЯ
 function saveFilterState() {
     const checkedCategories = document.querySelectorAll('.category-checkbox:checked');
     const categoryIds = Array.from(checkedCategories).map(cb => cb.value);
@@ -112,16 +101,14 @@ function loadFilterState() {
             });
         }
 
-        applyFilter(false); // Применяем фильтр
+        applyFilter(false); 
     } else {
         applyFilter(false);
     }
 }
 
-// ----------------------------------------------------------------------
-// --- ФУНКЦИИ ОТОБРАЖЕНИЯ И ФИЛЬТРАЦИИ ---
-// ----------------------------------------------------------------------
 
+//Фильтрация
 function dataDisplay(responseData) {
     if (!inventoryContainer) return;
 
@@ -190,9 +177,6 @@ function applyFilter(shouldSaveState = true) {
                 saveFilterState();
             }
 
-
-
-            // 1. Применяем поиск, если в поле есть текст
             if (mySearch && mySearch.value.trim() !== '') {
                 triggerSearch();
             }
@@ -212,14 +196,10 @@ function applyFilter(shouldSaveState = true) {
         });
 }
 
-// ----------------------------------------------------------------------
-// --- ФУНКЦИИ СОРТИРОВКИ ---
-// ----------------------------------------------------------------------
-
+//ФУНКЦИИ СОРТИРОВКИ
 function triggerSort(sortOption) {
     if (!inventoryContainer) return;
 
-    // Выбираем все карточки, включая скрытые, чтобы сортировать весь набор
     const items = Array.from(inventoryContainer.querySelectorAll('.sc-inv-card'));
 
     items.sort((a, b) => {
@@ -246,10 +226,7 @@ function triggerSort(sortOption) {
 }
 
 
-// ----------------------------------------------------------------------
-// --- ИНИЦИАЛИЗАЦИЯ И ОБРАБОТЧИКИ СОБЫТИЙ ---
-// ----------------------------------------------------------------------
-
+//ИНИЦИАЛИЗАЦИЯ И ОБРАБОТЧИКИ СОБЫТИЙ 
 if (minPriceInput && maxPriceInput) {
     updatePriceValues();
     minPriceInput.addEventListener('input', updatePriceValues);
@@ -292,16 +269,13 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
 
-        // ❗ При вводе - запускаем поиск
         mySearch.oninput = triggerSearch;
 
-        // Добавляем обработчик для кнопки поиска с классом .icon, если она есть
         const searchButton = document.querySelector('.icon');
         if (searchButton) {
             searchButton.addEventListener('click', triggerSearch);
         }
     }
 
-    // Загружаем состояние фильтра при старте страницы
     loadFilterState();
 });

@@ -1,61 +1,70 @@
-﻿document.addEventListener('DOMContentLoaded', function () {
-    const cardWrapper = document.querySelector('.card-wrapper');
-    const cards = Array.from(document.querySelectorAll('.card'));
-    const cardsPerRow = 3;
+﻿document.addEventListener('DOMContentLoaded', () => {
+    const cardInner = document.querySelector('.flip-card-inner');
+    const cardContainer = document.getElementById('flipCard');
+    const frontFace = document.getElementById('front');
+    const backFace = document.getElementById('back');
 
-    if (!cards.length) return;
 
-    // Клонируем карточки в начале и конце для бесконечной прокрутки
-    const prependCards = cards.slice(-cardsPerRow).map(c => c.cloneNode(true));
-    const appendCards = cards.slice(0, cardsPerRow).map(c => c.cloneNode(true));
-
-    prependCards.forEach(c => cardWrapper.insertBefore(c, cardWrapper.firstChild));
-    appendCards.forEach(c => cardWrapper.appendChild(c));
-
-    let currentIndex = cardsPerRow; // начинаем с «настоящих» карточек
-    const totalCards = cardWrapper.children.length;
-
-    // ширина карточки + gap
-    const cardWidth = cards[0].offsetWidth + 24; // 24 — это gap между карточками
-
-    function updateTransform(animate = true) {
-        if (animate) {
-            cardWrapper.style.transition = 'transform 0.5s ease';
-        } else {
-            cardWrapper.style.transition = 'none';
+    const services = [
+        {
+            title: "Доставка по всей стране",
+            text: "Осуществляем перевозки в любой регион — от локальных выездов до междугородних марафонов и турниров. Чёткое соблюдение графика и отслеживание в реальном времени.",
+            imgSrc: "/images/postrane.jpg",
+            alt: "Доставка"
+        },
+        {
+            title: "Любой объём инвентаря",
+            text: "Перевозим как один мяч, так и полный комплект экипировки для крупного спортивного клуба: от гимнастических матов до хоккейных ворот и велотренажёров.",
+            imgSrc: "/images/fint.jpg",
+            alt: "Инвентарь"
+        },
+        {
+            title: "Экспресс-доставка",
+            text: "Нужно срочно доставить инвентарь к соревнованиям? Готовы выехать в течение 2 часов после заявки — без задержек и переплат.",
+            imgSrc: "/images/distavka.jpg",
+            alt: "Экспресс"
+        },
+        {
+            title: "Полная страховка",
+            text: "Весь инвентарь застрахован на полную стоимость. В редком случае повреждения — компенсация без бюрократии и задержек.",
+            imgSrc: "/images/strohovka.jpg",
+            alt: "Страховка"
+        },
+        {
+            title: "Поддержка 24/7",
+            text: "Наша команда на связи круглосуточно. Поможем с логистикой перед турниром, изменим маршрут или ответим на вопросы — в любое время.",
+            imgSrc: "/images/poderka.jpg",
+            alt: "Поддержка"
         }
-        cardWrapper.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-    }
+    ];
 
-    function next() {
-        currentIndex++;
-        updateTransform();
-        if (currentIndex === totalCards - cardsPerRow) {
-            // после анимации прыгаем обратно к «настоящим»
-            setTimeout(() => {
-                currentIndex = cardsPerRow;
-                updateTransform(false);
-            }, 500);
-        }
-    }
+    let currentFace = 'front'; 
+    let currentIndex = 0;
+    const totalServices = services.length;
 
-    function prev() {
-        currentIndex--;
-        updateTransform();
-        if (currentIndex === 0) {
-            setTimeout(() => {
-                currentIndex = totalCards - (2 * cardsPerRow);
-                updateTransform(false);
-            }, 500);
-        }
-    }
+    const generateContent = (service) => `
+        <img src="${service.imgSrc}" alt="${service.alt}">
+        <h3>${service.title}</h3>
+        <p>${service.text}</p>
+    `;
 
-    const arrowRight = document.querySelector('.arrow.right');
-    const arrowLeft = document.querySelector('.arrow.left');
+    const updateHiddenFace = () => {
+        let nextIndex = (currentIndex + 1) % totalServices;
+        let hiddenFace = (currentFace === 'front' ? backFace : frontFace);
 
-    if (arrowRight) arrowRight.addEventListener('click', next);
-    if (arrowLeft) arrowLeft.addEventListener('click', prev);
+        hiddenFace.innerHTML = generateContent(services[nextIndex]);
+    };
 
-    // стартовое положение
-    updateTransform(false);
+    frontFace.innerHTML = generateContent(services[currentIndex]);
+    updateHiddenFace();
+
+    cardContainer.addEventListener('click', () => {
+        cardInner.classList.toggle('flipped');
+
+        currentFace = (currentFace === 'front' ? 'back' : 'front');
+
+        currentIndex = (currentIndex + 1) % totalServices;
+        setTimeout(updateHiddenFace, 400);
+    });
+
 });

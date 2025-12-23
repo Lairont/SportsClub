@@ -1,0 +1,219 @@
+﻿
+.img-header {
+    display: none;
+}
+.admin-container {
+    max-width: 1300px;
+    margin: 100px auto 80px; /* Отступ сверху побольше, чтобы не перекрывал хедер */
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #2c2c2c;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+.admin-header {
+    margin-bottom: 35px;
+}
+
+    .admin-header h1 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 6px;
+        color: #1a1a1a;
+    }
+
+.admin-subtitle {
+    font-size: 15px;
+    color: #6b6b6b;
+}
+
+/* =========================
+   СТАТИСТИКА
+   ========================= */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    margin-bottom: 45px;
+}
+
+.stat-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 26px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+    border: 1px solid #f0f0f0;
+}
+
+    .stat-card h3 {
+        font-size: 15px;
+        font-weight: 600;
+        color: #555;
+        margin-bottom: 12px;
+    }
+
+.stat-number {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1a7f37;
+}
+
+.stat-info .stat-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a7f37;
+}
+
+/* =========================
+   СЕКЦИЯ ПОЛЬЗОВАТЕЛЕЙ
+   ========================= */
+.users-section h2 {
+    font-size: 24px;
+    margin-bottom: 18px;
+    color: #1a1a1a;
+}
+
+.table-wrapper {
+    background: #ffffff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    border: 1px solid #f0f0f0;
+}
+
+/* =========================
+   ТАБЛИЦА
+   ========================= */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .admin-table thead {
+        background: #f4f6f8;
+    }
+
+    .admin-table th,
+    .admin-table td {
+        padding: 16px 18px;
+        text-align: left;
+        font-size: 14px;
+        vertical-align: middle;
+    }
+
+    .admin-table th {
+        font-weight: 600;
+        color: #555;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .admin-table tbody tr {
+        border-bottom: 1px solid #eee;
+    }
+
+        .admin-table tbody tr:hover {
+            background-color: #f9fafb;
+        }
+
+/* =========================
+   РОЛИ (Бейджи)
+   ========================= */
+.role-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+    .role-badge.admin {
+        background: rgba(220, 53, 69, 0.1);
+        color: #dc3545;
+        border: 1px solid rgba(220, 53, 69, 0.2);
+    }
+
+    .role-badge.user {
+        background: rgba(25, 135, 84, 0.1);
+        color: #198754;
+        border: 1px solid rgba(25, 135, 84, 0.2);
+    }
+
+/* =========================
+   КНОПКИ
+   ========================= */
+.btn-delete {
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #dc3545, #b02a37);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+    .btn-delete:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(220, 53, 69, 0.2);
+    }
+
+.self-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* =========================
+   АВАТАР
+   ========================= */
+.avatar-cell {
+    width: 80px;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+}
+
+    .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+/* =========================
+   АДАПТИВНОСТЬ
+   ========================= */
+@media (max-width: 768px) {
+    .admin-table th:nth-child(2),
+    .admin-table td:nth-child(2) {
+        display: none; /* Прячем ID на мобилках */
+    }
+}
+
+
+
+.role-text {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Администратор */
+.role-admin {
+    color: #dc3545;
+}
+
+/* Пользователь */
+.role-user {
+    color: #198754;
+}

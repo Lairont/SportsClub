@@ -1,104 +1,109 @@
 ﻿.inventory-details-container {
-    /* Главный контейнер */
-    max-width: 80%;
-    margin: 20px auto;
-    padding: 20px;
+
+    max-width: 1200px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 40px;
     background-color: #fff;
-    /* Уменьшил тень для более современного вида */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
 }
 
-/* Заголовок инвентаря */
+
 .item-header h1 {
     font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 5px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 800;
 }
 
 .item-category {
     font-size: 1.1rem;
-    color: #666;
-    margin-bottom: 15px;
+    color: #ffa500;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
-/* Контейнер для медиа и информации (Flexbox для двух колонок) */
 .item-content-wrapper {
     display: flex;
-    gap: 30px;
-    margin-top: 20px;
-    flex-wrap: wrap; /* Адаптивность для маленьких экранов */
+    gap: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap;
 }
 
-/* Секция изображений */
+
 .item-media-section {
-    flex: 1; /* Занимает место */
+    flex: 1;
     min-width: 300px;
     text-align: center;
     margin-top: 0;
 }
 
-/* Основное изображение */
+
 .item-main-image {
     width: 100%;
-    max-width: 100%; /* Убрал ограничение 60% для лучшего использования пространства */
-    height: 350px;
-    border-radius: 10px;
-    object-fit: cover;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: contain;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Контейнер миниатюр */
+
 .thumbnail-list {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
-/* Миниатюры */
+
 .item-thumbnail {
     width: 80px;
     height: 80px;
-    border-radius: 5px;
+    border-radius: 12px;
     object-fit: cover;
     cursor: pointer;
-    transition: transform 0.2s, border-color 0.2s;
+    transition: all 0.3s ease;
     border: 2px solid transparent;
+    opacity: 0.8;
 }
 
     .item-thumbnail:hover {
-        transform: scale(1.05);
-        /* Акцентный цвет для спортивной темы */
+        transform: translateY(-3px);
+        opacity: 1;
         border: 2px solid #ffa500;
+        box-shadow: 0 5px 15px rgba(255, 165, 0, 0.3);
     }
 
-/* Информационная панель */
+
 .item-info-panel {
-    flex: 2; /* Занимает больше места, чем медиа-секция */
-    padding: 20px 0;
+    flex: 1.5;
+    padding: 10px 0;
 }
 
     .item-info-panel h1 {
         font-size: 2rem;
         margin-bottom: 20px;
-    }
-
-    .item-info-panel p {
-        margin: 15px 0;
-        font-size: 1.1rem;
-        line-height: 1.6;
-        color: #444;
-    }
-
-    .item-info-panel strong {
         color: #333;
     }
 
-/* Стилизация звезд (если используются для рейтинга/состояния) */
+    .item-info-panel p {
+        margin: 20px 0;
+        font-size: 1.15rem;
+        line-height: 1.8;
+        color: #555;
+    }
+
+    .item-info-panel strong {
+        color: #2c3e50;
+        font-weight: 700;
+    }
+
 .item-rating-star {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     vertical-align: middle;
     margin-left: 5px;
 }

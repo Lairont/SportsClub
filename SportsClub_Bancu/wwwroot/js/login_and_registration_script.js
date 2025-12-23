@@ -1,22 +1,6 @@
-﻿//function toggleLoginContainer() {
-//    const container = document.querySelector(".container-login-registration");
-//    if (!container) return;
-
-//    if (container.style.display === "grid") {
-//        container.style.display = "none";
-//    } else {
-//        container.style.display = "grid";
-//    }
-//}
-
-
-let confirmationData = null;
+﻿let confirmationData = null;
 let confirmErrorContainer = null;
 
-
-// =================================================================================
-// Вспомогательные функции для работы с DOM и UI
-// =================================================================================
 function toggleContainer(selector) {
     const container = document.querySelector(selector);
     if (!container) return;
@@ -81,11 +65,7 @@ function displayErrors(errors, errorContainer) {
     });
 }
 
-
-// =================================================================================
 // Функция для отправки Fetch-запроса (Promise)
-// =================================================================================
-
 function sendRequest(method, url, body = null) {
     const headers = {
         'Content-Type': 'application/json'
@@ -106,10 +86,8 @@ function sendRequest(method, url, body = null) {
 }
 
 
-// =================================================================================
-// Обработчики кнопок Вход/Регистрация/Подтверждение
-// =================================================================================
 
+// Обработчики кнопок Вход/Регистрация/Подтверждение
 document.addEventListener('DOMContentLoaded', function () {
 
     confirmErrorContainer = document.getElementById('error-messages-confirm-email');
@@ -175,9 +153,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// ----------------------------
-// Кнопка ВХОДА (.form_btn_signin)
-// ----------------------------
+// Кнопка ВХОДА
 const form_btn_signin = document.querySelector('.form_btn_signin');
 
 if (form_btn_signin) {
@@ -209,9 +185,7 @@ if (form_btn_signin) {
 }
 
 
-// ----------------------------
-// Кнопка РЕГИСТРАЦИИ (.form_btn_signup)
-// ----------------------------
+// Кнопка РЕГИСТРАЦИИ 
 const form_btn_signup = document.querySelector('.form_btn_signup');
 
 if (form_btn_signup) {
