@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {}
+    "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
+    "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
+        "projectUniqueName": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
         "projectName": "SporClub_Bancu.DAL",
-        "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
+        "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj",
         "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\obj\\",
+        "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
-                "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
+              "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
+                "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
+    "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
+        "projectUniqueName": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
         "projectName": "SportClub_Bancu.Domain",
-        "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
+        "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj",
         "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\obj\\",
+        "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Visual Studio\\Shared\\NuGetPackages"
@@ -154,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj": {
+    "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj",
+        "projectUniqueName": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj",
         "projectName": "SportClub_Bancu.Servise",
-        "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj",
+        "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj",
         "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\obj\\",
+        "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Visual Studio\\Shared\\NuGetPackages"
@@ -182,11 +182,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
-                "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj"
+              "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
+                "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj"
               },
-              "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
-                "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
+              "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
+                "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
               }
             }
           }
@@ -236,14 +236,14 @@
         }
       }
     },
-    "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {
+    "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
+        "projectUniqueName": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
         "projectName": "SportsClub_Bancu",
-        "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
+        "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\SportsClub_Bancu.csproj",
         "packagesPath": "C:\\Users\\petrb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportsClub_Bancu\\obj\\",
+        "outputPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportsClub_Bancu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Visual Studio\\Shared\\NuGetPackages"
@@ -264,14 +264,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
-                "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj"
+              "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj": {
+                "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SporClub_Bancu.DAL\\SporClub_Bancu.DAL.csproj"
               },
-              "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
-                "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
+              "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj": {
+                "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Domain\\SportClub_Bancu.Domain.csproj"
               },
-              "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj": {
-                "projectPath": "C:\\Users\\petrb\\OneDrive\\Desktop\\SportsClubnew1 — копия\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj"
+              "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj": {
+                "projectPath": "F:\\Visual Studio\\job\\practica\\SportsClub\\SportClub_Bancu.Servise\\SportClub_Bancu.Servise.csproj"
               }
             }
           }

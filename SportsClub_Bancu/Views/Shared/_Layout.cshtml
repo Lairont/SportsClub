@@ -23,15 +23,21 @@
     <link rel="stylesheet" href="~/css/ServInfo.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
 
- </head>
- <body>
-    <header class="main-header">
-        <div class="logo">FitStock</div>
+    <!-- PREMIUM ADD -->
+    <link rel="stylesheet" href="~/css/layout-premium.css" asp-append-version="true" />
+</head>
+<body>
 
+    <!-- PREMIUM ADD: фоновые элементы -->
+    <div class="premium-bg-orb orb-left"></div>
+    <div class="premium-bg-orb orb-right"></div>
+
+    <header class="main-header premium-header">
+        <div class="logo">FitStock</div>
 
         <div id="hamburger" class="icon">&#9776;</div>
 
-        <nav class="menu">
+        <nav class="menu premium-menu">
             <ul>
                 <li><a href="/Home/SiteInformation">Главная</a></li>
                 <li><a href="/Home/ServInfo">Услуги</a></li>
@@ -40,13 +46,12 @@
             </ul>
         </nav>
 
-
-        <div id="side-menu" class="side-menu">
+        <div id="side-menu" class="side-menu premium-side-menu">
             <button class="button" id="side-menu-button-click-to-hide" type="button">🡣</button>
 
             @if (User.Identity.IsAuthenticated)
             {
-                <div class="side-menu-user-profile">
+                <div class="side-menu-user-profile premium-user-profile">
                     <div class="avatar-circle">
                         <img src="@userAvatar" alt="Avatar" referrerpolicy="no-referrer" />
                     </div>
@@ -61,14 +66,16 @@
                 <li><a href="/Home/ServInfo">Услуги</a></li>
                 <li><a href="/Inventory/ListOfInventory">Инвентарь</a></li>
                 <li><a href="/Home/Contact">Контакты</a></li>
+
                 @if (User.Identity.IsAuthenticated)
                 {
                     <li class="separator"></li>
                     <li><a href="/Home/Profile">Мой профиль</a></li>
                     <li><a href="/Home/Crate">Моя корзина</a></li>
+
                     @if (User.IsInRole("Admin"))
                     {
-                        <li><a href="/Admin/Dashboard" style="color: #efad51;">Админ-панель</a></li>
+                        <li><a href="/Admin/Dashboard" class="admin-accent">Админ-панель</a></li>
                     }
                 }
             </ul>
@@ -83,18 +90,15 @@
             }
         </div>
 
-
-        <div class="button-header">
+        <div class="button-header premium-button-header">
             @if (User.Identity.IsAuthenticated)
             {
                 <div class="user-menu-wrapper">
-                    @* ТВОЙ БЛОК ТУТ: Обертка для круглой аватарки *@
                     <div class="avatar-circle" id="userMenuBtn">
                         <img src="@userAvatar" alt="Avatar" referrerpolicy="no-referrer" />
                     </div>
 
-                    @* Выпадающее меню, которое открывается по клику *@
-                    <div id="userDropdown" class="user-dropdown-menu">
+                    <div id="userDropdown" class="user-dropdown-menu premium-dropdown">
                         <div class="user-info-brief">
                             <p>Привет, <strong>@User.Identity.Name</strong>!</p>
                         </div>
@@ -117,27 +121,17 @@
                 <button id="open-login" class="button">Войти</button>
             }
         </div>
-
-
-
-        @*   <div class="button-header">
-            <button id="open-login">Войти</button>
-        </div> *@
-
-
-
-
     </header>
 
-    <img class="img-header" src="~/images/fin.jpg" alt="Путешествия" />
+    <img class="img-header premium-img-header" src="~/images/fin.jpg" alt="Header image" />
 
     @await Html.PartialAsync("_LoginRegistrationPartial")
     @await Html.PartialAsync("_ConfirmEmailPartial")
 
-    <main class="@ViewData["BodyClass"]">
+    <!-- PREMIUM ADD -->
+    <main class="premium-main @ViewData["BodyClass"]">
         @RenderBody()
     </main>
-
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
